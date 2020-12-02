@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--  HEAVY TURRET  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TurretHeavy</defName>
+    <label>Heavy Turret Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_TurretHeavy</defName>
+    <label>Heavy Turret Gun</label>
+    <graphicData>
+      <texPath>Things/Building/Security/HeavyTurretGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>true</menuHidden>
+    <description>Heavy Turret.</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <statBases>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_TurretHeavy</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>30</range>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  LASER TURRET  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TurretLaser</defName>
+    <label>Heavy Laser Bullet</label>
+    <graphicData>
+      <texPath>Things/Building/Security/LaserBeam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>2</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_TurretLaser</defName>
+    <label>Heavy Laser Gun</label>
+    <graphicData>
+      <texPath>Things/Building/Security/HeavyLaserGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>true</menuHidden>
+    <description>Laser Turret</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_TurretLaser</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>50</range>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>10</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  SNIPER TURRET  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TurretSniper</defName>
+    <label>Heavy Sniper Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>75</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_TurretSniper</defName>
+    <label>Heavy Sniper Gun</label>
+    <graphicData>
+      <texPath>Things/Building/Security/SniperTurretGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>true</menuHidden>
+    <description>Sniper Turret.</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_TurretSniper</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>50</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  CHAINSAW TURRET  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TurretChainsaw</defName>
+    <label>Chainsaw Turret Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Cut</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>25</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_TurretChainsaw</defName>
+    <label>Chainsaw Turret Gun</label>
+    <graphicData>
+      <texPath>Things/Building/Security/ChainsawTurretGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>true</menuHidden>
+    <description>Chainsaw Turret.</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_TurretChainsaw</defaultProjectile>
+        <warmupTime>.1</warmupTime>
+        <range>1.9</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>Pawn_Melee_MechanoidSlash_HitPawn</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>1</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  FLAMETHROWER TURRET  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_TurretFlamethrower</defName>
+    <label>Flamethrower Turret Bullet</label>
+    <graphicData>
+      <texPath>Things/Building/Security/FlamethrowerBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>0.1</explosionRadius>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>2</damageAmountBase>
+      <speed>10</speed>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_TurretFlamethrower</defName>
+    <label>Flamethrower Turret Gun</label>
+    <graphicData>
+      <texPath>Things/Building/Security/FlamethrowerTurretGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>true</menuHidden>
+    <description>Flamethrower Turret.</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <statBases>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_TurretFlamethrower</defaultProjectile>
+        <warmupTime>0.1</warmupTime>
+        <range>8</range>
+        <soundCast>Pawn_Melee_MechanoidSlash_HitPawn</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

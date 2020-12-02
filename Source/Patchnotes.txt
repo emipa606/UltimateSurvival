@@ -1,0 +1,80 @@
+Ultimate Survival
+
+(V1.1)
+
+-Beta 18 compatible
+-Removed KEM strike until I can balance it with the new orbital stike weapons
+-Removed Exosuit until I can fix the "remove all other bionics" bug
+-Removed Powercore Mortars until I can balance it with new mortar shells
+-Minor changes to recipies and crafting time
+
+Next update will be a big one with a ton of fixes, but for now I just wanted to make it compatible with Beta 18.
+
+
+(V1.0)
+
+-Barbed Wire added
+-Destroyer faction units art added
+-Flamethrower now leaves fuel on ground
+-Weapons and bionics crafting bench added
+-Storyteller code rebuilt to fit new format for A17
+-Non-tribal humanoid factions health doubled
+-Non-tribal humanoid faction pawns now non-recruitable (still able to harvest organs)
+-Raiders do not flee when a bunch die, they will still flee when stealing downed pawns, when they feel they have done enough damage, and when stealing valuable goods
+-Drop pod colonists, wanderer colonist joining and refuge chased by enemy greatly increased
+-Destroyer faction weapon tags fixed to limit weapon choices
+-Destroyer faction no longer spawns from crashed ship or with mech spawns
+-Destroyer faction no longer sieges
+-Laser turret damage increased, fire rate lowered
+-Discriptions throughout entire mod has been completed (I think)
+-Minor recipie changes throuout
+-Mod combined back into a single mod due to steam workshop. Will look into breaking it up again later.
+
+
+(v0.3)
+- Updated for Rimworld Alpha 17
+- Added new Bionics branch to the mod.
+- 11 New bionic body parts.
+- A new fabric made from power shard dust. Used for some bionic production, fireproof armor and able to be used to make normal clothing.
+- Pure Power Crystal item added. Limited use, but plans for expansion
+- All research has been moved to its own tab in the research menu.
+- Crafting time, value and required materials has been changed in many items.
+- Due to the increased need for powershards; pirates, outlanders and mechs now drop more power shards.
+- Some code orginization and clean up.
+
+Future Plans:
+- Multiple work benches for different types of crafting instead of everything being at the power bench
+- Changing the name of bionic bodyparts to something other than "power X" for everything.
+- Update all missing item discriptions
+- Art for Destroyer faction and a hand full of items, possibly update art on old items.
+- Massive balance overhaul of completed mod
+- Clean up code for full release
+- A rebuild of all pawns in the game. Late game can get pretty laggy due to the number of raiders, I have an idea on how to fix it but it will take a ton of work to implement it. I have it on the back burner for now, but is something I would like done before the full release.
+
+
+
+(v0.2)
+- Added 3 types of boots and gloves to increase walk speed/work speed.
+- Added Powercore Mortar, currently unbalanced and cheap to make. Used to fire Powercore Shells.
+- Added Powercore Shells. Used in a standard mortar. Moderate damage and large explosive range, but quite expensive to produce.
+- Research for Powercore Shells added.
+- Minor code clean-up & orginization.
+
+(v0.1)
+-Split the mod into a few different parts. There is now a Core mod, which includes things like power, drugs, the storyteller, difficulty setting, the new raid system and global learning/workspeed changes. There is also now optional packs that require Core, but you can pick and chose what extras you want. There is a turret pack, a weapons and armor pack, and a very very WIP faction pack.
+-A new faction. This is a new faction of enemies that do some pretty special things. This is a very early version of this and needs a ton more refining... also art, it really needs art... I cant art well...
+-There is now a hand full of new craftable/buyable weapons that fit into the "power" theme. They are strong, but a pain to get your hands on. They need balance work, but should be usable right now (if anything they are a bit underpowered).
+-I went though all the files and cleaned some crap up. There is still probably still stuff in there I could clear out, but were still in the early phases of the mod. Things will continue to be cleaned out as I learn more and get closer to an actual release.
+-Fixed bugged comms console, its a temp fix, but I had to make the destroyer faction not spawn on the map
+-PowerGatlingGun damage dropped from 5 to 1
+-Flamethrower damage dropped from 3 to 1
+-Heavy turret cost lowered
+-Laser turret now has a plasteel cost
+-Fixed problem where "Power guns" were not craftable at powerbench.
+
+(No Version Number)
+-Everything updated to work for A16
+-Because of the change to how turrets work, all firerates have changed slightly
+-Powershard combuster cost lowered
+-Powercore generator power increased from 10000 to 15000
+-new research added, all research fits on the tech tree (at the end) and research points for each research has been reworked.

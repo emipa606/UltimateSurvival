@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseDestroyer">
+    <defName>Destroyer_Giant</defName>
+    <label>giant</label>
+    <description>A large semi-humanoid creature that can take a lot of damage. It is slower than a standard human but has much more health.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <MeatAmount>10</MeatAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Destroyer</thinkTreeMain>
+      <intelligence>ToolUser</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>80</lifeExpectancy>
+      <deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+      <body>Human</body>
+      <baseBodySize>2</baseBodySize>
+      <baseHealthScale>5</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>USWeaponArmorbench</defName>
+    <label>US Weapons and Armor Workbench</label>
+    <description>Unlocks the US weapons and armor workbench, giving you the ability to craft very powerful weapons and armor.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>UltimateSurvival</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>USArmors</defName>
+    <label>US Armors</label>
+    <description>Unlocks the US armors pack.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>USWeaponArmorbench</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Flamethrower</defName>
+    <label>Flamethrower</label>
+    <description>A fire resistance suit of armor.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>USWeaponArmorbench</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>2</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>FireSuit</defName>
+    <label>Fire Suit</label>
+    <description>A fire resistance suit of armor.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>USArmors</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>4</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PowerWeapons</defName>
+    <label>Power Weapons</label>
+    <description>A set of craftable weapons. These weapons are constructed around a powercore, making them increadibly strong.</description>
+    <baseCost>15000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>USWeaponArmorbench</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>USBionics</defName>
+    <label>bionics</label>
+    <description>Allows the production of new bionics.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>Powerbench</li>
+    </prerequisites>
+    <tab>UltimateSurvival</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+</Defs>
