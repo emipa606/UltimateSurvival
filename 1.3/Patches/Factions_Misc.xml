@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]</xpath>
+    <value>
+      <permanentEnemy>true</permanentEnemy>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="TribeBase"]</xpath>
+    <value>
+      <permanentEnemy>true</permanentEnemy>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="AncientsBase"]</xpath>
+    <value>
+      <permanentEnemy>true</permanentEnemy>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[defName="Empire"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[defName="Empire"]</xpath>
+      <value>
+        <permanentEnemy>true</permanentEnemy>
+      </value>
+    </match>
+  </Operation>
+</Patch>

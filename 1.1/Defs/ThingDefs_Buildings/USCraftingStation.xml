@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>Powerbench</defName>
+    <label>Power Bench</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A workbench equipped for the production of Power Shard related items.</description>
+    <graphicData>
+      <texPath>Things/Building/Production/TablePowercoreProduction</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>500</Steel>
+      <Plasteel>300</Plasteel>
+      <ComponentIndustrial>30</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>6000</WorkToBuild>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <size>(3,1)</size>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Powerbench</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BenchBase">
+    <defName>TableBionicProduction</defName>
+    <label>US Bionics Workbench</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A workbench equipped for the production of bionic body parts and organs.</description>
+    <graphicData>
+      <texPath>Things/Building/Production/TableBionicProduction</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>300</Steel>
+      <Plasteel>200</Plasteel>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>8000</WorkToBuild>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <size>(3,1)</size>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>USBionics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BenchBase">
+    <defName>USWeaponArmorbench</defName>
+    <label>US Weapons and Armor Bench</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A workbench equipped for the production powerful weapons and armor.</description>
+    <graphicData>
+      <texPath>Things/Building/Production/TableWeaponArmorProduction</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>300</Steel>
+      <Plasteel>200</Plasteel>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>8000</WorkToBuild>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <size>(3,1)</size>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>USWeaponArmorbench</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

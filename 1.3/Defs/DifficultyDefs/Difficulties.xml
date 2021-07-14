@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DifficultyDef>
+    <defName>ultimatesurvival</defName>
+    <label>Ultimate Survival</label>
+    <description>F*ck</description>
+    <difficulty>7</difficulty>
+    <threatScale>1</threatScale>
+    <colonistMoodOffset>100</colonistMoodOffset>
+    <cropYieldFactor>0.9</cropYieldFactor>
+    <diseaseIntervalFactor>100</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>2</enemyReproductionRateFactor>
+  </DifficultyDef>
+</Defs>

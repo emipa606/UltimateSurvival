@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Destroyer</defName>
+    <label>Destroyer</label>
+    <description>Nobody knows where they came from, but their only goal seems to be to destroy all sentiant life they come across. They are some strange mix between human and mech.</description>
+    <pawnsPlural>Destroyer soldiers</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <autoFlee>false</autoFlee>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>leader</leaderTitle>
+    <hidden>true</hidden>
+    <factionIconPath>Things/DestroyerIcon</factionIconPath>
+    <colorSpectrum>
+      <li>(0, 0, 0)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <factionNameMaker>NamerFactionPirate</factionNameMaker>
+    <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <earliestRaidDays>20</earliestRaidDays>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>
+      <min>-100</min>
+      <max>100</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <DestroyerPsycho>75</DestroyerPsycho>
+          <DestroyerSoldier>200</DestroyerSoldier>
+          <DestroyerGiant>75</DestroyerGiant>
+          <DestroyerBehemothGunner>10</DestroyerBehemothGunner>
+          <DestroyerBehemothPsycho>25</DestroyerBehemothPsycho>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultFactionBase</settlementTexturePath>
+  </FactionDef>
+</Defs>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BasePawn" Name="BaseDestroyer" Abstract="True">
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <statBases>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <ToxicSensitivity>0</ToxicSensitivity>
+      <Flammability>0</Flammability>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+    </statBases>
+    <race>
+      <fleshType>Mechanoid</fleshType>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+    </race>
+  </ThingDef>
+  <ThingDef ParentName="BaseDestroyer">
+    <defName>Destroyer_Psycho</defName>
+    <label>psycho</label>
+    <description>A small and quick semi-humanoid creature. It has spikes for arms and is deadly in melee combat.</description>
+    <statBases>
+      <MoveSpeed>15</MoveSpeed>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <MeatAmount>10</MeatAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left spike</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>0.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftSpike</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right spike</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>0.5</cooldownTime>
+        <linkedBodyPartsGroup>RightSpike</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Destroyer</thinkTreeMain>
+      <intelligence>ToolUser</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>80</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+      <body>PsychoBody</body>
+      <baseBodySize>0.5</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+</Defs>

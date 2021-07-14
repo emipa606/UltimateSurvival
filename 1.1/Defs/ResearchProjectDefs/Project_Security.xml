@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>HeavyTurret</defName>
+    <label>Large Turrets</label>
+    <description>Allows the production of large turrets.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>UltimateSurvival</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>SniperTurret</defName>
+    <label>Sniper Turret</label>
+    <description>A powerful sniper turret.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>HeavyTurret</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>5</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ChainsawTurret</defName>
+    <label>Chainsaw Turret</label>
+    <description>A powerful melee turret.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>HeavyTurret</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>5</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>FlamethrowerTurret</defName>
+    <label>Flamethrower Turret</label>
+    <description>A flamethrower turret, for those who want to watch the world burn.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>HeavyTurret</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>5</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>LaserTurret</defName>
+    <label>Laser Turret</label>
+    <description>A very powerful turret that takes advantage of the immense power of Powercores.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PowercoreProduction</li>
+      <li>HeavyTurret</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PowercoreShell</defName>
+    <label>Powercore Shell</label>
+    <description>A shell made from powercores that can be used to rain firey hell upon your enemies using a standard mortar</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PowercoreProduction</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+</Defs>

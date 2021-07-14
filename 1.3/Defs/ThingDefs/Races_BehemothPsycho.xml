@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseDestroyer">
+    <defName>Destroyer_BehemothPsycho</defName>
+    <label>behemoth psycho</label>
+    <description>A massive semi-humanoid creature that uses its spikes to inflict deadly sab wounds and destroy pretty much everything in its path. It is quite slow but has an increadable amount of health.</description>
+    <statBases>
+      <MoveSpeed>2</MoveSpeed>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <MeatAmount>10</MeatAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left spike</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>75</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftSpike</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right spike</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>75</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightSpike</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Destroyer</thinkTreeMain>
+      <intelligence>ToolUser</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>80</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+      <body>PsychoBody</body>
+      <baseBodySize>3</baseBodySize>
+      <baseHealthScale>20</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+</Defs>

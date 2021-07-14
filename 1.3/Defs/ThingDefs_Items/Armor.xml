@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="FireproofArmorHelmetMakeableBase" ParentName="FireproofArmorMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="FireproofArmorHelmetMakeableBase">
+    <defName>Apparel_FireproofHelmet</defName>
+    <label>Fireproof Helmet</label>
+    <description>A fireproof powerarmor helmet. It is built stronger than a standard powerarmor helmet and provided heat and fire protection at the cost of mobility.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>FireSuit</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>1</Mass>
+      <MaxHitPoints>500</MaxHitPoints>
+      <MarketValue>17000</MarketValue>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+      <ArmorRating_Heat>10</ArmorRating_Heat>
+      <Insulation_Heat>500</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Crystalfiber>70</Crystalfiber>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <ThingDef Name="FireproofApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Name="FireproofApparelMakeableBase" ParentName="FireproofApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="FireproofArmorMakeableBase" ParentName="FireproofApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>USWeaponArmorbench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="FireproofArmorMakeableBase">
+    <defName>Apparel_FireproofArmor</defName>
+    <label>Fireproof Armor</label>
+    <description>A fireproof variant of power armor. It is built stronger than standard power armor and provided protection against heat and fire, but at the cost of mobility.Only recommended to use with the flamethrower.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>FireSuit</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>20</Mass>
+      <MaxHitPoints>900</MaxHitPoints>
+      <MarketValue>50000</MarketValue>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+      <ArmorRating_Heat>10</ArmorRating_Heat>
+      <Insulation_Heat>1000</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.30</MoveSpeed>
+      <WorkSpeedGlobal>-0.30</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <costList>
+      <Crystalfiber>200</Crystalfiber>
+      <Plasteel>75</Plasteel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Hands</li>
+        <li>Feet</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>

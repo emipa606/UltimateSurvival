@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--  Standard US Craftable Weapons  -->
+  <ThingDef Name="BaseMakeableUSGun" ParentName="BaseGun" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>USWeaponArmorbench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="BaseHumanMakeableUSGun" ParentName="BaseMakeableUSGun" Abstract="True">
+    <weaponTags>
+      <li>USWeapons</li>
+    </weaponTags>
+    <tradeTags>
+      <li>USWeapons</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="BaseHumanMakeableUSSuperHeavyGun" ParentName="BaseMakeableUSGun" Abstract="True">
+    <weaponTags>
+      <li>USHeavyWeapons</li>
+    </weaponTags>
+    <tradeTags>
+      <li>USHeavyWeapons</li>
+    </tradeTags>
+  </ThingDef>
+  <!--  FLAMETHROWER  -->
+  <ThingDef Name="BaseFlamethrowerProjectile" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>projectile</label>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <speed>10</speed>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseFlamethrowerProjectile">
+    <defName>Bullet_Flamethrower</defName>
+    <label>Flamethrower Stream</label>
+    <graphicData>
+      <texPath>Things/Projectile/FlamethrowerBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>0.1</explosionRadius>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>10</speed>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableUSSuperHeavyGun">
+    <defName>Gun_Flamethrower</defName>
+    <label>Flamethrower</label>
+    <description>A handheld flamethrower.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Flamethrower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Flamethrower</researchPrerequisite>
+    </recipeMaker>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>3</Mass>
+      <MarketValue>750</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Flamethrower</defaultProjectile>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>0.1</warmupTime>
+        <range>10</range>
+        <soundCast>Pawn_Melee_MechanoidSlash_HitPawn</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  POWER ASSULT SHOTGUN  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PowerAssaultShotgun</defName>
+    <label>power shotgun pellet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_LaserBeam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableUSGun">
+    <defName>Gun_PowerAssaultShotgun</defName>
+    <label>power assault shotgun</label>
+    <description>A shotgun powered by powershards. Deadly and fast firing.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/PowerAssaultShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>PowerWeapons</researchPrerequisite>
+    </recipeMaker>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>5</Mass>
+      <MarketValue>6000</MarketValue>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Powercore>1</Powercore>
+      <Steel>100</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PowerAssaultShotgun</defaultProjectile>
+        <warmupTime>0.7</warmupTime>
+        <range>20</range>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  POWER SNIPER  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PowerSniper</defName>
+    <label>power sniper bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_LaserBeam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableUSGun">
+    <defName>Gun_PowerSniperRifle</defName>
+    <label>power sniper rifle</label>
+    <description>A sniper rifle powered by powershards. Shoots 2 powerful rounds in short succesion.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/PowerSniper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>PowerWeapons</researchPrerequisite>
+    </recipeMaker>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>5</Mass>
+      <MarketValue>6000</MarketValue>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Powercore>1</Powercore>
+      <Steel>150</Steel>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PowerSniper</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>70</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  POWER GAT  -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PowerGatlingGun</defName>
+    <label>power gatling bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_LaserBeam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableUSSuperHeavyGun">
+    <defName>Gun_PowerGatlingGun</defName>
+    <label>power gatling gun</label>
+    <description>A massive gatling gun powered by powershards. Throws a ton of rounds down range. It is low damage but very high firerate.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/PowerGat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>PowerWeapons</researchPrerequisite>
+    </recipeMaker>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>10</Mass>
+      <MarketValue>15000</MarketValue>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Powercore>2</Powercore>
+      <Steel>300</Steel>
+      <ComponentIndustrial>20</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PowerGatlingGun</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>70</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--  KEM STRIKE  -->
+  <!--
+  
+   <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_KEM</defName>
+    <label>KEM bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_KEM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>True</flyOverhead>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>1000</damageAmountBase>
+      <explosionRadius>30.0</explosionRadius>
+      <speed>1000</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_KEM</defName>
+    <label>KEM Strike</label>
+    <description>Call in a barrage of KEM strike from an orbital weapons platform. *WARNING* This will destroy literally everything that can be destroyed in the attack area.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/KEM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+	<generateCommonality>0</generateCommonality>
+	<statBases>
+      <MarketValue>15000</MarketValue>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+	<tradeTags>
+      <li>USGoods</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_KEM</defaultProjectile>
+        <warmupTime>30</warmupTime>
+        <range>1000</range>
+		<forcedMissRadius>5</forcedMissRadius>
+		<burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+		<targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  -->
+</Defs>

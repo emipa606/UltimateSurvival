@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="HumanFactionBase"]</xpath>
+    <value>
+      <permanentEnemy>true</permanentEnemy>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/FactionDef/goodwillDailyFall</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/FactionDef/goodwillDailyGain</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/FactionDef/naturalColonyGoodwill</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/FactionDef/startingGoodwill</xpath>
+  </Operation>
+</Patch>

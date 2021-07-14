@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Powershard</defName>
+    <label>Power Shard</label>
+    <description>An item of unknown origin that holds immense potential power.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powershard</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <smeltable>true</smeltable>
+    <statBases>
+      <MarketValue>25</MarketValue>
+      <Mass>0.01</Mass>
+      <SharpDamageMultiplier>3</SharpDamageMultiplier>
+      <BluntDamageMultiplier>3</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>
+    <smallVolume>true</smallVolume>
+    <stuffProps>
+      <stuffAdjective>powershards</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <color>(50,100,50)</color>
+      <commonality>0.02</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>20</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>20</MaxHitPoints>
+        <Flammability>0.0</Flammability>
+        <Beauty>20</Beauty>
+        <WorkToMake>20</WorkToMake>
+        <MeleeWeapon_CooldownMultiplier>0.2</MeleeWeapon_CooldownMultiplier>
+        <SharpDamageMultiplier>5</SharpDamageMultiplier>
+        <BluntDamageMultiplier>3</BluntDamageMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Powercore</defName>
+    <label>Power Core</label>
+    <description>A fully functioning Power Core.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powercore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <MarketValue>4500</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Powersharddust</defName>
+    <label>Power Shard dust</label>
+    <description>A crushed Power Shard.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Powersharddust</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>40</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.10</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Refineddust</defName>
+    <label>Refined Dust</label>
+    <description>Pure processed Power Shard Dust.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Refineddust</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>750</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.10</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Crystalfiber</defName>
+    <label>Crystal Fiber</label>
+    <description>A fiber created from crushed Power Shard.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/CrystalFiber</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(162,157,152)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>225</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <color>(162,157,152)</color>
+      <commonality>0.05</commonality>
+      <allowColorGenerators>false</allowColorGenerators>
+      <statOffsets>
+        <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+        <ArmorRating_Heat>0.5</ArmorRating_Heat>
+      </statOffsets>
+      <statFactors>
+        <ArmorRating_Blunt>1</ArmorRating_Blunt>
+        <ArmorRating_Sharp>1.75</ArmorRating_Sharp>
+        <ArmorRating_Heat>3.0</ArmorRating_Heat>
+        <Insulation_Cold>2</Insulation_Cold>
+        <Insulation_Heat>2</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Purepowercrystal</defName>
+    <label>Pure Power Crystal</label>
+    <description>A pure power crystal</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PurePowerCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.10</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>PowercoreShell</defName>
+    <label>powercore shell</label>
+    <description>Fired from mortars.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PowercoreShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>350</MarketValue>
+      <Flammability>1</Flammability>
+      <Mass>0.01</Mass>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>10</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.1</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.10</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

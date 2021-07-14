@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BarbedWire</defName>
+    <label>Barbed Wire</label>
+    <thingClass>Building_BarbedWire</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Security/BarbedWire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <passability>PassThroughOnly</passability>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>0.33</Flammability>
+      <Beauty>-10</Beauty>
+      <TrapMeleeDamage>4</TrapMeleeDamage>
+      <TrapSpringChance>1</TrapSpringChance>
+    </statBases>
+    <description>A thick mess of cables with razor sharp barbs.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>false</isTrap>
+      <trapDamageCategory>Sharp</trapDamageCategory>
+      <trapUnarmedGraphicData>
+        <texPath>Things/Building/Security/DeadfallUnarmed</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>Cutout</shaderType>
+      </trapUnarmedGraphicData>
+    </building>
+  </ThingDef>
+</Defs>
