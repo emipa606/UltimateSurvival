@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef>
+    <defName>DestroyerBehemothPsycho</defName>
+    <label>behemoth psycho</label>
+    <race>Destroyer_BehemothPsycho</race>
+    <combatPower>500</combatPower>
+    <defaultFactionType>Destroyer</defaultFactionType>
+    <aiAvoidCover>true</aiAvoidCover>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Pawn/BehemothPsycho</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Powershard</thingDef>
+          <countRange>
+            <min>40</min>
+            <max>80</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+</Defs>

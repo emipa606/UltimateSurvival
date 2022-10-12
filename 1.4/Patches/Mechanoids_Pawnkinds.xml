@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[@Name="BaseMechanoidKind"]</xpath>
+    <value>
+      <inventoryOptions>
+        <skipChance>0</skipChance>
+        <subOptionsChooseOne>
+          <li>
+            <thingDef>Powershard</thingDef>
+            <countRange>
+              <min>20</min>
+              <max>50</max>
+            </countRange>
+          </li>
+        </subOptionsChooseOne>
+      </inventoryOptions>
+    </value>
+  </Operation>
+</Patch>

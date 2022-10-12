@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Items -->
+  <ThingCategoryDef>
+    <defName>USGoods</defName>
+    <label>US Goods</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>USBionics</defName>
+    <label>US Bionics</label>
+    <parent>BodyParts</parent>
+  </ThingCategoryDef>
+  <!-- Weapons -->
+  <ThingCategoryDef>
+    <defName>Weapons</defName>
+    <label>weapons</label>
+    <parent>Root</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>USHeavyWeapons</defName>
+    <label>US Heavy Weapons</label>
+    <parent>Weapons</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>USWeapons</defName>
+    <label>US Weapons</label>
+    <parent>Weapons</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>USHandwear</defName>
+    <label>handwear</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>USFootwear</defName>
+    <label>footwear</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+</Defs>

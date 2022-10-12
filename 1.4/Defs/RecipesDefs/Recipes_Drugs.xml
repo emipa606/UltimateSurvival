@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>CreateFocus</defName>
+    <label>Craft Focus</label>
+    <description>Make Focus from Powershard dust.</description>
+    <jobString>Crafting Focus</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>300</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Powersharddust</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Powersharddust</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Focus>1</Focus>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>FocusProduction</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Powerbench</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>CreateSuperfocus</defName>
+    <label>Craft Super Focus</label>
+    <description>Make Super focus from Refined Dust.</description>
+    <jobString>Crafting Super focus</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>750</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Refineddust</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Refineddust</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SuperFocus>1</SuperFocus>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>SuperFocusProduction</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Powerbench</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

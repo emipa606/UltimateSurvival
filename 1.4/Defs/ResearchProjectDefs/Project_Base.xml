@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>UltimateSurvival</defName>
+    <label>Ultimate Survival</label>
+    <description>Unlocks the ability to research Ultimate Survival Technology.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Powerbench</defName>
+    <label>Powerbench</label>
+    <description>A crafting station to create goods made from Power Shards.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>UltimateSurvival</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PowershardCombuster</defName>
+    <label>Powershard Combuster</label>
+    <description>A small power generator that consumes Power Shards.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>UltimateSurvival</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PowercoreGenerator</defName>
+    <label>Powercore Generator</label>
+    <description>A large power generator that takes advantage of the energy within Powercore.</description>
+    <baseCost>4500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PowershardCombuster</li>
+      <li>PowercoreProduction</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>FocusProduction</defName>
+    <label>Focus Production</label>
+    <description>The ability to create the drug "Focus".</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Powersharddust</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>SuperFocusProduction</defName>
+    <label>Super Focus Production</label>
+    <description>The ability to create the drug "Super Focus".</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Refineddust</li>
+      <li>FocusProduction</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PowercoreProduction</defName>
+    <label>Powercore Production</label>
+    <description>The ability to create Powercores which can be used for weapons, armors, power generation and defences.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Powerbench</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Powersharddust</defName>
+    <label>Power Shard Dust</label>
+    <description>Unlocks the ability to crush Power Shards at the Power Bench.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Powerbench</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Refineddust</defName>
+    <label>Power Shard Dust Refining</label>
+    <description>The ability to refine Power Shard dust to remove impurities.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Powersharddust</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+    <tab>UltimateSurvival</tab>
+  </ResearchProjectDef>
+</Defs>

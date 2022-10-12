@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--  HEAVY TURRET  -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>HeavyTurretGun</defName>
+    <label>Heavy Turret</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/HeavyTurretBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>50</Mass>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <description>Heavy Turret.</description>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>120</costStuffCount>
+    <costList>
+      <Steel>130</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>30</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_TurretHeavy</turretGunDef>
+      <turretBurstCooldownTime>0.2</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>HeavyTurret</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--  LASER TURRET  -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>HeavyLaserGun</defName>
+    <label>Heavy Laser Turret</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/HeavyLaserBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>6000</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <description>A Laser Turret that has low damage but incredible firerate and range.</description>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>120</costStuffCount>
+    <costList>
+      <Steel>100</Steel>
+      <Plasteel>100</Plasteel>
+      <Powercore>2</Powercore>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>50</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_TurretLaser</turretGunDef>
+      <turretBurstCooldownTime>0.01</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>LaserTurret</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--  SNIPER TURRET  -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>SniperTurretGun</defName>
+    <label>Sniper Turret</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/SniperTurretBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>30</Mass>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <description>A Sniper Turret with high damage and range, but very slow firerate and health.</description>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>120</costStuffCount>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>50</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_TurretSniper</turretGunDef>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>SniperTurret</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--  CHAINSAW TURRET  -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>ChainsawTurretGun</defName>
+    <label>Chainsaw Turret</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/ChainsawTurretBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>75</Mass>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <description>A Chainsaw Turret. It is literally just a chainsaw on a turret. It has very low range but will deal a lot of damage quickly. Any survivor tends to bleed out very quickly</description>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>500</costStuffCount>
+    <costList>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>2</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_TurretChainsaw</turretGunDef>
+      <turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>ChainsawTurret</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--  FLAMETHROWER TURRET  -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>FlamethrowerTurretGun</defName>
+    <label>Flamethrower Turret</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/FlamethrowerTurretBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>110</Mass>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>6</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <description>A Flamethrower Turret. It will torch enemies within a reletivly close range. Low health and highly explosive.</description>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>300</costStuffCount>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>8</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_TurretFlamethrower</turretGunDef>
+      <turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+    </building>
+    <researchPrerequisites>
+      <li>FlamethrowerTurret</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!-- ================ Mortars ==================-->
+  <!--
+	<ThingDef Name="BaseArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building_TurretGun</thingClass>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/TurretMortarBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <stealable>false</stealable>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2700</WorkToBuild>
+      <Mass>200</Mass>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <building>
+      <turretShellDef>PowercoreShell</turretShellDef>
+      <turretBurstWarmupTime>5.0</turretBurstWarmupTime>
+			<turretBurstCooldownTime>35.0</turretBurstCooldownTime>
+			<buildingTags>
+				<li>Artillery</li>
+			</buildingTags>
+		</building>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Mortars</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef Name="BaseArtilleryWeapon" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <label>artillery error</label>
+    <equipmentType>Primary</equipmentType>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <destroyOnDrop>True</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>Artillery</li>
+    </weaponTags>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+  </ThingDef>        
+   
+   -->
+  <!--=============== POWERCORE MORTAR ===============-->
+  <!--
+  <ThingDef ParentName="BaseArtilleryBuilding">
+    <defName>Turret_PowercoreShell</defName>
+    <label>powercore mortar</label>
+    <description>A mortar that launches explosive shells. Must be manned. Explodes when damaged.</description>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+    </comps>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <building>
+      <turretGunDef>Artillery_PowercoreShell</turretGunDef>
+      <buildingTags>
+        <li>Artillery_BaseDestroyer</li>
+      </buildingTags>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Artillery_PowercoreShell</defName>
+    <label>explosive power mortar</label>
+    <graphicData>
+      <texPath>Things/Building/Security/TurretMortarBomb_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>Power mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PowercoreShell</defaultProjectile>
+        <forcedMissRadius>12</forcedMissRadius>
+        <warmupTime>5.8</warmupTime>
+        <minRange>30</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PowercoreShell</defName>
+    <label>explosive powercore shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellBomb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <speed>200</speed>
+      <explosionRadius>15</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  
+     -->
+</Defs>

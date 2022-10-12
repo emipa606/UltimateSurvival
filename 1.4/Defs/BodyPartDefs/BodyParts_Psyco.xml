@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>LeftSpike</defName>
+    <label>left spike</label>
+    <hitPoints>50</hitPoints>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RightSpike</defName>
+    <label>right Spike</label>
+    <hitPoints>50</hitPoints>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+</Defs>
