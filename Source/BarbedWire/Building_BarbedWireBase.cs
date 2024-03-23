@@ -16,7 +16,7 @@ public abstract class Building_BarbedWireBase : Building
 
     private const float AnimalSpringChanceFactor = 0.1f;
 
-    private List<Pawn> touchingPawns = new List<Pawn>();
+    private List<Pawn> touchingPawns = [];
 
     public virtual bool Armed => true;
 

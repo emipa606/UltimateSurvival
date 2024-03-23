@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="BodyPartBase"]/tradeTags</xpath>
+    <value>
+      <li>USBionics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="BodyPartBionicBase"]/thingCategories</xpath>
+    <value>
+      <li>USBionics</li>
+    </value>
+  </Operation>
+</Patch>

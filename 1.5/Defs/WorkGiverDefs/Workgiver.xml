@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsPowerbench</defName>
+    <label>Create materials using power items</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>130</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Powerbench</li>
+    </fixedBillGiverDefs>
+    <verb>craft</verb>
+    <gerund>crafting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsUSWeaponsArmorbench</defName>
+    <label>Create weapons and armor</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>140</priorityInType>
+    <fixedBillGiverDefs>
+      <li>USWeaponArmorbench</li>
+    </fixedBillGiverDefs>
+    <verb>craft</verb>
+    <gerund>crafting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsUSTableBionicProduction</defName>
+    <label>Create weapons and armor</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>150</priorityInType>
+    <fixedBillGiverDefs>
+      <li>TableBionicProduction</li>
+    </fixedBillGiverDefs>
+    <verb>craft</verb>
+    <gerund>crafting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Added body parts -->
+  <HediffDef Name="USAddedBodyPartBase" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+    <addedPartProps>
+      <betterThanNatural>true</betterThanNatural>
+      <solid>true</solid>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef Name="USImplantBase" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+    <addedPartProps>
+      <betterThanNatural>true</betterThanNatural>
+      <solid>true</solid>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerJaw</defName>
+    <label>power jaw</label>
+    <description>power jaw</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <offset>2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerEye</defName>
+    <label>power eye</label>
+    <description>power eye</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerLung</defName>
+    <label>power lung</label>
+    <description>power lung</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerHeart</defName>
+    <label>power heart</label>
+    <description>power heart</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerLiver</defName>
+    <label>power liver</label>
+    <description>power liver</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USImplantBase">
+    <defName>PowerExoSuit</defName>
+    <label>power exosuit</label>
+    <description>power exosuit</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerKidney</defName>
+    <label>power kidney</label>
+    <description>power kidney</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerSpine</defName>
+    <label>power spine</label>
+    <description>power spine</description>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerBionicArm</defName>
+    <label>power bionic arm</label>
+    <description>power bionic arm</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.5</defaultCooldownTime>
+            <meleeDamageBaseAmount>20</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>PowerBionicArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <betterThanNatural>true</betterThanNatural>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>1.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>PowerLeg</defName>
+    <label>bionic leg</label>
+    <description>bionic leg</description>
+    <spawnThingOnRemoved>PowerLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <betterThanNatural>true</betterThanNatural>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>1.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="USAddedBodyPartBase">
+    <defName>CrystalineSpike</defName>
+    <label>crystaline spike</label>
+    <description>crystaline spike</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>0.3</defaultCooldownTime>
+            <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+            <meleeDamageDef>Cut</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>CrystalineSpike</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <betterThanNatural>true</betterThanNatural>
+      <partEfficiency>0.1</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

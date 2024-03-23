@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>MakePowercoreShells</defName>
+    <label>make powercore shells</label>
+    <description>Craft 4 powercore shells.</description>
+    <jobString>Making artillery shell.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2000</workAmount>
+    <recipeUsers>
+      <li>Powerbench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Powercore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Powercore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PowercoreShell>4</PowercoreShell>
+    </products>
+    <skillRequirements>
+      <Crafting>14</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>PowercoreShell</researchPrerequisite>
+  </RecipeDef>
+</Defs>

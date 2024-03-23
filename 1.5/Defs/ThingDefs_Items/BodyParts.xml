@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- artificial - bionics -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerHeart</defName>
+    <label>power heart</label>
+    <description>A mechanical heart that imporves blood pumping</description>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerLung</defName>
+    <label>power lung</label>
+    <description>A mechanical lung that imporves breathing</description>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerKidney</defName>
+    <label>power kidney</label>
+    <description>A mechanical kidney that improves blood filtration</description>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerLiver</defName>
+    <label>power liver</label>
+    <description>A mechanical liver that improves blood filtration</description>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerEye</defName>
+    <label>power bionic eye</label>
+    <description>A mechanical eye that improves sight</description>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerBionicArm</defName>
+    <label>Power Bionic Arm</label>
+    <description>A mechanical arm that improves manipulation, melee damage and melee speed</description>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>7</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerLeg</defName>
+    <label>power bionic leg</label>
+    <description>A mechanical leg that improves walking speed</description>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>8</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>7</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>CrystalineSpike</defName>
+    <label>crystaline spike</label>
+    <description>A large crystaline spike that replaces a forarm and hand. Manipulation is greatly decreased in exchange for a large boost to melee damage and speed</description>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>SpecialWeapon</li>
+    </techHediffsTags>
+    <tradeability>Sellable</tradeability>
+    <costList>
+      <Plasteel>120</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerExoSuit</defName>
+    <label>power exosuit</label>
+    <description>A mechanical suit that provides the user with many enhancements</description>
+    <statBases>
+      <MarketValue>15000</MarketValue>
+      <Mass>20</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>300</Plasteel>
+      <ComponentSpacer>12</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerSpine</defName>
+    <label>power spine</label>
+    <description>A mechanical spine that improves speed and manipulation</description>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>80</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PowerJaw</defName>
+    <label>power jaw</label>
+    <description>A mechanical jaw that provides increased eating speed and speech</description>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Steel>20</Steel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+  </ThingDef>
+</Defs>

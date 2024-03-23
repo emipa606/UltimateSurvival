@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StatDef>
+    <defName>GlobalLearningFactor</defName>
+    <label>global learning factor</label>
+    <description>Global learning efficiency for all skills.</description>
+    <category>BasicsPawn</category>
+    <defaultBaseValue>5.0</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showOnAnimals>false</showOnAnimals>
+    <hideAtValue>1</hideAtValue>
+    <displayPriorityInCategory>75</displayPriorityInCategory>
+  </StatDef>
+</Defs>
