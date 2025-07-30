@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: crystaline spike -->
+  <CrystalineSpike.label>crystaline spike</CrystalineSpike.label>
+  <!-- EN: A large crystaline spike that replaces a forarm and hand. Manipulation is greatly decreased in exchange for a large boost to melee damage and speed -->
+  <CrystalineSpike.description>A large crystaline spike that replaces a forarm and hand. Manipulation is greatly decreased in exchange for a large boost to melee damage and speed</CrystalineSpike.description>
+  <!-- EN: Power Bionic Arm -->
+  <PowerBionicArm.label>Power Bionic Arm</PowerBionicArm.label>
+  <!-- EN: A mechanical arm that improves manipulation, melee damage and melee speed -->
+  <PowerBionicArm.description>A mechanical arm that improves manipulation, melee damage and melee speed</PowerBionicArm.description>
+  <!-- EN: power exosuit -->
+  <PowerExoSuit.label>power exosuit</PowerExoSuit.label>
+  <!-- EN: A mechanical suit that provides the user with many enhancements -->
+  <PowerExoSuit.description>A mechanical suit that provides the user with many enhancements</PowerExoSuit.description>
+  <!-- EN: power bionic eye -->
+  <PowerEye.label>power bionic eye</PowerEye.label>
+  <!-- EN: A mechanical eye that improves sight -->
+  <PowerEye.description>A mechanical eye that improves sight</PowerEye.description>
+  <!-- EN: power heart -->
+  <PowerHeart.label>power heart</PowerHeart.label>
+  <!-- EN: A mechanical heart that imporves blood pumping -->
+  <PowerHeart.description>A mechanical heart that imporves blood pumping</PowerHeart.description>
+  <!-- EN: power jaw -->
+  <PowerJaw.label>power jaw</PowerJaw.label>
+  <!-- EN: A mechanical jaw that provides increased eating speed and speech -->
+  <PowerJaw.description>A mechanical jaw that provides increased eating speed and speech</PowerJaw.description>
+  <!-- EN: power kidney -->
+  <PowerKidney.label>power kidney</PowerKidney.label>
+  <!-- EN: A mechanical kidney that improves blood filtration -->
+  <PowerKidney.description>A mechanical kidney that improves blood filtration</PowerKidney.description>
+  <!-- EN: power bionic leg -->
+  <PowerLeg.label>power bionic leg</PowerLeg.label>
+  <!-- EN: A mechanical leg that improves walking speed -->
+  <PowerLeg.description>A mechanical leg that improves walking speed</PowerLeg.description>
+  <!-- EN: power liver -->
+  <PowerLiver.label>power liver</PowerLiver.label>
+  <!-- EN: A mechanical liver that improves blood filtration -->
+  <PowerLiver.description>A mechanical liver that improves blood filtration</PowerLiver.description>
+  <!-- EN: power lung -->
+  <PowerLung.label>power lung</PowerLung.label>
+  <!-- EN: A mechanical lung that imporves breathing -->
+  <PowerLung.description>A mechanical lung that imporves breathing</PowerLung.description>
+  <!-- EN: power spine -->
+  <PowerSpine.label>power spine</PowerSpine.label>
+  <!-- EN: A mechanical spine that improves speed and manipulation -->
+  <PowerSpine.description>A mechanical spine that improves speed and manipulation</PowerSpine.description>
+</LanguageData>

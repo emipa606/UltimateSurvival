@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>global work speed</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on someone's speed at doing any work. -->
+  <WorkSpeedGlobal.description>A multiplier on someone's speed at doing any work.</WorkSpeedGlobal.description>
+</LanguageData>

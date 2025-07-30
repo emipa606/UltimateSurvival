@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Crystal Fiber -->
+  <Crystalfiber.label>Crystal Fiber</Crystalfiber.label>
+  <!-- EN: A fiber created from crushed Power Shard. -->
+  <Crystalfiber.description>A fiber created from crushed Power Shard.</Crystalfiber.description>
+  <!-- EN: Power Core -->
+  <Powercore.label>Power Core</Powercore.label>
+  <!-- EN: A fully functioning Power Core. -->
+  <Powercore.description>A fully functioning Power Core.</Powercore.description>
+  <!-- EN: powercore shell -->
+  <PowercoreShell.label>powercore shell</PowercoreShell.label>
+  <!-- EN: Fired from mortars. -->
+  <PowercoreShell.description>Fired from mortars.</PowercoreShell.description>
+  <!-- EN: Power Shard -->
+  <Powershard.label>Power Shard</Powershard.label>
+  <!-- EN: An item of unknown origin that holds immense potential power. -->
+  <Powershard.description>An item of unknown origin that holds immense potential power.</Powershard.description>
+  <!-- EN: powershards -->
+  <Powershard.stuffProps.stuffAdjective>powershards</Powershard.stuffProps.stuffAdjective>
+  <!-- EN: Power Shard dust -->
+  <Powersharddust.label>Power Shard dust</Powersharddust.label>
+  <!-- EN: A crushed Power Shard. -->
+  <Powersharddust.description>A crushed Power Shard.</Powersharddust.description>
+  <!-- EN: Pure Power Crystal -->
+  <Purepowercrystal.label>Pure Power Crystal</Purepowercrystal.label>
+  <!-- EN: A pure power crystal -->
+  <Purepowercrystal.description>A pure power crystal</Purepowercrystal.description>
+  <!-- EN: Refined Dust -->
+  <Refineddust.label>Refined Dust</Refineddust.label>
+  <!-- EN: Pure processed Power Shard Dust. -->
+  <Refineddust.description>Pure processed Power Shard Dust.</Refineddust.description>
+</LanguageData>

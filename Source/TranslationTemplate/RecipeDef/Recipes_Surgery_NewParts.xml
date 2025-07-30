@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install crystaline spike -->
+  <InstallCrystalineSpike.label>install crystaline spike</InstallCrystalineSpike.label>
+  <!-- EN: Installs crystaline spike. -->
+  <InstallCrystalineSpike.description>Installs crystaline spike.</InstallCrystalineSpike.description>
+  <!-- EN: Installing crystaline spike. -->
+  <InstallCrystalineSpike.jobString>Installing crystaline spike.</InstallCrystalineSpike.jobString>
+  <!-- EN: install power bionic arm -->
+  <InstallPowerBionicArm.label>install power bionic arm</InstallPowerBionicArm.label>
+  <!-- EN: Installs power bionic arm. -->
+  <InstallPowerBionicArm.description>Installs power bionic arm.</InstallPowerBionicArm.description>
+  <!-- EN: Installing power bionic arm. -->
+  <InstallPowerBionicArm.jobString>Installing power bionic arm.</InstallPowerBionicArm.jobString>
+  <!-- EN: install power exosuit -->
+  <InstallPowerExoSuit.label>install power exosuit</InstallPowerExoSuit.label>
+  <!-- EN: Installs exosuit. -->
+  <InstallPowerExoSuit.description>Installs exosuit.</InstallPowerExoSuit.description>
+  <!-- EN: Installing power exosuit. -->
+  <InstallPowerExoSuit.jobString>Installing power exosuit.</InstallPowerExoSuit.jobString>
+  <!-- EN: install power eye -->
+  <InstallPowerEye.label>install power eye</InstallPowerEye.label>
+  <!-- EN: Installs bionic eye. -->
+  <InstallPowerEye.description>Installs bionic eye.</InstallPowerEye.description>
+  <!-- EN: Installing bionic eye. -->
+  <InstallPowerEye.jobString>Installing bionic eye.</InstallPowerEye.jobString>
+  <!-- EN: install power heart -->
+  <InstallPowerHeart.label>install power heart</InstallPowerHeart.label>
+  <!-- EN: Install heart -->
+  <InstallPowerHeart.description>Install heart</InstallPowerHeart.description>
+  <!-- EN: Installing power heart. -->
+  <InstallPowerHeart.jobString>Installing power heart.</InstallPowerHeart.jobString>
+  <!-- EN: install power jaw -->
+  <InstallPowerJaw.label>install power jaw</InstallPowerJaw.label>
+  <!-- EN: Installs denture. -->
+  <InstallPowerJaw.description>Installs denture.</InstallPowerJaw.description>
+  <!-- EN: Installing denture. -->
+  <InstallPowerJaw.jobString>Installing denture.</InstallPowerJaw.jobString>
+  <!-- EN: install kidney -->
+  <InstallPowerKidney.label>install kidney</InstallPowerKidney.label>
+  <!-- EN: Installs kidney. -->
+  <InstallPowerKidney.description>Installs kidney.</InstallPowerKidney.description>
+  <!-- EN: Installing kidney. -->
+  <InstallPowerKidney.jobString>Installing kidney.</InstallPowerKidney.jobString>
+  <!-- EN: install bionic leg -->
+  <InstallPowerLeg.label>install bionic leg</InstallPowerLeg.label>
+  <!-- EN: Installs bionic leg. -->
+  <InstallPowerLeg.description>Installs bionic leg.</InstallPowerLeg.description>
+  <!-- EN: Installing bionic leg. -->
+  <InstallPowerLeg.jobString>Installing bionic leg.</InstallPowerLeg.jobString>
+  <!-- EN: install power liver -->
+  <InstallPowerLiver.label>install power liver</InstallPowerLiver.label>
+  <!-- EN: Installs power liver. -->
+  <InstallPowerLiver.description>Installs power liver.</InstallPowerLiver.description>
+  <!-- EN: Installing liver. -->
+  <InstallPowerLiver.jobString>Installing liver.</InstallPowerLiver.jobString>
+  <!-- EN: install lung -->
+  <InstallPowerLung.label>install lung</InstallPowerLung.label>
+  <!-- EN: Installs lung. -->
+  <InstallPowerLung.description>Installs lung.</InstallPowerLung.description>
+  <!-- EN: Installing lung. -->
+  <InstallPowerLung.jobString>Installing lung.</InstallPowerLung.jobString>
+  <!-- EN: install power spine -->
+  <InstallPowerSpine.label>install power spine</InstallPowerSpine.label>
+  <!-- EN: Installs spine. -->
+  <InstallPowerSpine.description>Installs spine.</InstallPowerSpine.description>
+  <!-- EN: Installing power spine. -->
+  <InstallPowerSpine.jobString>Installing power spine.</InstallPowerSpine.jobString>
+</LanguageData>

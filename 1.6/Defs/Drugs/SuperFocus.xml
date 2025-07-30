@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>SuperFocus</defName>
+    <label>Super Focus</label>
+    <description>An experamental drug that pushes the users body to the limit while under the influence. It is non-addictive and had no known side effects. It would be the perfect drug if it were not for the high cost of manufacturing it.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Superfocus</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>100.00</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>90</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <chairSearchRadius>0</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SuperFocusHigh</hediffDef>
+          <severity>1</severity>
+          <toleranceChemical>SuperFocus</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.0</offset>
+          <toleranceChemical>SuperFocus</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SuperFocusTolerance</hediffDef>
+          <severity>0.00</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>SuperFocusProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Refineddust>10</Refineddust>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>SuperFocus</chemical>
+        <addictiveness>0</addictiveness>
+        <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+        <listOrder>200</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>SuperFocusHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>High on Super Focus</label>
+    <description>High on Super Focus</description>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_HealPermanentWounds" />
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.1</painFactor>
+        <restFallFactor>0</restFallFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>SuperFocusHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SuperFocusHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>High on Super Focus</label>
+        <description>Feeling godly, nothing can bring me down.</description>
+        <baseMoodEffect>50</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- SuperFocus addiction -->
+  <ChemicalDef>
+    <defName>SuperFocus</defName>
+    <label>Super Focus</label>
+    <addictionHediff>SuperFocusAddiction</addictionHediff>
+    <toleranceHediff>SuperFocusTolerance</toleranceHediff>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_SuperFocus</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Super Focus</label>
+    <description>If you ever see this, please let the mod dev know</description>
+    <listPriority>45</listPriority>
+  </NeedDef>
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>SuperFocusTolerance</defName>
+    <label>Super Focus Tolerance</label>
+    <description>Super Focus Tolerance</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-100</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>SuperFocus</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>SuperFocusAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>Super Focus Addiction</label>
+    <description>Super Focus Addiction</description>
+    <chemicalNeed>Chemical_SuperFocus</chemicalNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.04</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>Withdrawal</label>
+        <painFactor>0</painFactor>
+        <restFallFactor>1</restFallFactor>
+        <hungerRateFactor>1</hungerRateFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>SuperFocusWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SuperFocusAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Super Focus Withdrawal</label>
+        <description>If you see this, please let the mod dev know.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

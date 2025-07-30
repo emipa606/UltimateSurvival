@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Create materials using power items -->
+  <DoBillsPowerbench.label>Create materials using power items</DoBillsPowerbench.label>
+  <!-- EN: crafting -->
+  <DoBillsPowerbench.gerund>crafting</DoBillsPowerbench.gerund>
+  <!-- EN: craft -->
+  <DoBillsPowerbench.verb>craft</DoBillsPowerbench.verb>
+  <!-- EN: Create weapons and armor -->
+  <DoBillsUSTableBionicProduction.label>Create weapons and armor</DoBillsUSTableBionicProduction.label>
+  <!-- EN: crafting -->
+  <DoBillsUSTableBionicProduction.gerund>crafting</DoBillsUSTableBionicProduction.gerund>
+  <!-- EN: craft -->
+  <DoBillsUSTableBionicProduction.verb>craft</DoBillsUSTableBionicProduction.verb>
+  <!-- EN: Create weapons and armor -->
+  <DoBillsUSWeaponsArmorbench.label>Create weapons and armor</DoBillsUSWeaponsArmorbench.label>
+  <!-- EN: crafting -->
+  <DoBillsUSWeaponsArmorbench.gerund>crafting</DoBillsUSWeaponsArmorbench.gerund>
+  <!-- EN: craft -->
+  <DoBillsUSWeaponsArmorbench.verb>craft</DoBillsUSWeaponsArmorbench.verb>
+</LanguageData>

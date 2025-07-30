@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: crystaline spike -->
+  <CrystalineSpike.label>crystaline spike</CrystalineSpike.label>
+  <!-- EN: crystaline spike -->
+  <CrystalineSpike.description>crystaline spike</CrystalineSpike.description>
+  <!-- EN: power bionic arm -->
+  <PowerBionicArm.label>power bionic arm</PowerBionicArm.label>
+  <!-- EN: power bionic arm -->
+  <PowerBionicArm.description>power bionic arm</PowerBionicArm.description>
+  <!-- EN: power exosuit -->
+  <PowerExoSuit.label>power exosuit</PowerExoSuit.label>
+  <!-- EN: power exosuit -->
+  <PowerExoSuit.description>power exosuit</PowerExoSuit.description>
+  <!-- EN: power eye -->
+  <PowerEye.label>power eye</PowerEye.label>
+  <!-- EN: power eye -->
+  <PowerEye.description>power eye</PowerEye.description>
+  <!-- EN: power heart -->
+  <PowerHeart.label>power heart</PowerHeart.label>
+  <!-- EN: power heart -->
+  <PowerHeart.description>power heart</PowerHeart.description>
+  <!-- EN: power jaw -->
+  <PowerJaw.label>power jaw</PowerJaw.label>
+  <!-- EN: power jaw -->
+  <PowerJaw.description>power jaw</PowerJaw.description>
+  <!-- EN: power kidney -->
+  <PowerKidney.label>power kidney</PowerKidney.label>
+  <!-- EN: power kidney -->
+  <PowerKidney.description>power kidney</PowerKidney.description>
+  <!-- EN: bionic leg -->
+  <PowerLeg.label>bionic leg</PowerLeg.label>
+  <!-- EN: bionic leg -->
+  <PowerLeg.description>bionic leg</PowerLeg.description>
+  <!-- EN: power liver -->
+  <PowerLiver.label>power liver</PowerLiver.label>
+  <!-- EN: power liver -->
+  <PowerLiver.description>power liver</PowerLiver.description>
+  <!-- EN: power lung -->
+  <PowerLung.label>power lung</PowerLung.label>
+  <!-- EN: power lung -->
+  <PowerLung.description>power lung</PowerLung.description>
+  <!-- EN: power spine -->
+  <PowerSpine.label>power spine</PowerSpine.label>
+  <!-- EN: power spine -->
+  <PowerSpine.description>power spine</PowerSpine.description>
+</LanguageData>

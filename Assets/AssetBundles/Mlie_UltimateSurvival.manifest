@@ -1,0 +1,90 @@
+ManifestFileVersion: 0
+CRC: 2955118492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 45b2f07e6044d6f448427cead8c5619d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 45b2f07e6044d6f448427cead8c5619d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Power/PowercoreGenerator.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TableBionicProduction_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Drug/Superfocus/Superfocus.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/ChainsawTurretGun.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TablePowercoreProduction_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TableBionicProduction_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Projectile/FlamethrowerBullet.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/DestroyerIcon.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TablePowercoreProduction_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Projectile/Bullet_KEM.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/BarbedWire.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/UltimateSurvivalLarge.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/HeavyTurretGun.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Soldier_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TablePowercoreProduction_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/HeavyLaserBase.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/WeaponRanged/PowerSniper.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/WeaponRanged/Flamethrower.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TableWeaponArmorProduction_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/LaserBeam.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Psycho_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TableWeaponArmorProduction_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/Accessory/PowerBoots.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/SniperTurretBase.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/BehemothPsycho_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Resource/Powercore.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/WeaponRanged/PowerGat.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Giant_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/FlamethrowerBullet.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Projectile/Bullet_LaserBeam.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Giant_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Psycho_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Resource/Powershard.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Soldier_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/Accessory/AdvancedGloves.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Resource/Powersharddust.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/WeaponRanged/PowerAssaultShotgun.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/BehemothGunner_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Resource/PurePowerCrystal.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/FlamethrowerTurretBase.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/Accessory/BasicBoots.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/PowershardCombuster.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/SniperTurretGun.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/FlamethrowerTurretGun.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Drug/Focus/Focus.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Soldier_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Resource/Refineddust.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/BehemothGunner_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/Accessory/PowerGloves.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Psycho_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Projectile/ShellBomb.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TableBionicProduction_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Resource/PowercoreShell.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/Giant_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/Accessory/BasicGloves.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/HeavyLaserGun.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/WeaponRanged/Powersword2.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/TableWeaponArmorProduction_east.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/UltimateSurvivalSmall.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/ChainsawTurretBase.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/BehemothGunner_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/Accessory/AdvancedBoots.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/WeaponRanged/KEM.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Production/PowercoreGenerator.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/ChainsawBullet.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/BehemothPsycho_north.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Resource/CrystalFiber.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Security/HeavyTurretBase.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Building/Power/PowershardCombuster.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Pawn/BehemothPsycho_south.png
+- Assets/Data/Mlie.UltimateSurvival/Textures/Things/Item/Equipment/WeaponRanged/Powersword.png
+Dependencies: []

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: giant -->
+  <Destroyer_Giant.label>giant</Destroyer_Giant.label>
+  <!-- EN: A large semi-humanoid creature that can take a lot of damage. It is slower than a standard human but has much more health. -->
+  <Destroyer_Giant.description>A large semi-humanoid creature that can take a lot of damage. It is slower than a standard human but has much more health.</Destroyer_Giant.description>
+  <!-- EN: left fist -->
+  <Destroyer_Giant.tools.left_fist.label>left fist</Destroyer_Giant.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Destroyer_Giant.tools.right_fist.label>right fist</Destroyer_Giant.tools.right_fist.label>
+</LanguageData>

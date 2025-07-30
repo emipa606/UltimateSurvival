@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Super Focus -->
+  <SuperFocus.label>Super Focus</SuperFocus.label>
+  <!-- EN: An experamental drug that pushes the users body to the limit while under the influence. It is non-addictive and had no known side effects. It would be the perfect drug if it were not for the high cost of manufacturing it. -->
+  <SuperFocus.description>An experamental drug that pushes the users body to the limit while under the influence. It is non-addictive and had no known side effects. It would be the perfect drug if it were not for the high cost of manufacturing it.</SuperFocus.description>
+  <!-- EN: Inject {0} -->
+  <SuperFocus.ingestible.ingestCommandString>Inject {0}</SuperFocus.ingestible.ingestCommandString>
+  <!-- EN: Injecting {0}. -->
+  <SuperFocus.ingestible.ingestReportString>Injecting {0}.</SuperFocus.ingestible.ingestReportString>
+</LanguageData>

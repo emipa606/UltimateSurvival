@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Craft Focus -->
+  <CreateFocus.label>Craft Focus</CreateFocus.label>
+  <!-- EN: Make Focus from Powershard dust. -->
+  <CreateFocus.description>Make Focus from Powershard dust.</CreateFocus.description>
+  <!-- EN: Crafting Focus -->
+  <CreateFocus.jobString>Crafting Focus</CreateFocus.jobString>
+  <!-- EN: Craft Super Focus -->
+  <CreateSuperfocus.label>Craft Super Focus</CreateSuperfocus.label>
+  <!-- EN: Make Super focus from Refined Dust. -->
+  <CreateSuperfocus.description>Make Super focus from Refined Dust.</CreateSuperfocus.description>
+  <!-- EN: Crafting Super focus -->
+  <CreateSuperfocus.jobString>Crafting Super focus</CreateSuperfocus.jobString>
+</LanguageData>

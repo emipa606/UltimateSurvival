@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: soldier -->
+  <Destroyer_Soldier.label>soldier</Destroyer_Soldier.label>
+  <!-- EN: A stronger than average semi-humanoid. It is slightly stronger and faster than a normal human. -->
+  <Destroyer_Soldier.description>A stronger than average semi-humanoid. It is slightly stronger and faster than a normal human.</Destroyer_Soldier.description>
+  <!-- EN: left fist -->
+  <Destroyer_Soldier.tools.left_fist.label>left fist</Destroyer_Soldier.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Destroyer_Soldier.tools.right_fist.label>right fist</Destroyer_Soldier.tools.right_fist.label>
+</LanguageData>

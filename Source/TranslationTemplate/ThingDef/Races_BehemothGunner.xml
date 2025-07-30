@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: behemoth gunner -->
+  <Destroyer_BehemothGunner.label>behemoth gunner</Destroyer_BehemothGunner.label>
+  <!-- EN: A massive semi-humanoid creature that wields some of the most powerful weapons in existance. It is quite slow but has an increadable amount of health. -->
+  <Destroyer_BehemothGunner.description>A massive semi-humanoid creature that wields some of the most powerful weapons in existance. It is quite slow but has an increadable amount of health.</Destroyer_BehemothGunner.description>
+  <!-- EN: left fist -->
+  <Destroyer_BehemothGunner.tools.left_fist.label>left fist</Destroyer_BehemothGunner.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Destroyer_BehemothGunner.tools.right_fist.label>right fist</Destroyer_BehemothGunner.tools.right_fist.label>
+</LanguageData>

@@ -6,9 +6,9 @@ namespace RimWorld;
 
 public class Building_BarbedWire : Building_BarbedWireBase
 {
-    private static readonly FloatRange TrapDamageFactor = new FloatRange(0.7f, 1.3f);
+    private static readonly FloatRange TrapDamageFactor = new(0.7f, 1.3f);
 
-    private static readonly IntRange DamageCount = new IntRange(1, 2);
+    private static readonly IntRange DamageCount = new(1, 2);
 
     private bool armedInt = true;
 
@@ -16,7 +16,7 @@ public class Building_BarbedWire : Building_BarbedWireBase
 
     private Graphic graphicUnarmedInt;
 
-    public override bool Armed => armedInt;
+    protected override bool Armed => armedInt;
 
     public override Graphic Graphic
     {
@@ -29,10 +29,7 @@ public class Building_BarbedWire : Building_BarbedWireBase
             }
             else
             {
-                if (graphicUnarmedInt == null)
-                {
-                    graphicUnarmedInt = def.building.trapUnarmedGraphicData.GraphicColoredFor(this);
-                }
+                graphicUnarmedInt ??= def.building.trapUnarmedGraphicData.GraphicColoredFor(this);
 
                 graphic = graphicUnarmedInt;
             }

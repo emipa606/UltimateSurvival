@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Fireproof Armor -->
+  <Apparel_FireproofArmor.label>Fireproof Armor</Apparel_FireproofArmor.label>
+  <!-- EN: A fireproof variant of power armor. It is built stronger than standard power armor and provided protection against heat and fire, but at the cost of mobility.Only recommended to use with the flamethrower. -->
+  <Apparel_FireproofArmor.description>A fireproof variant of power armor. It is built stronger than standard power armor and provided protection against heat and fire, but at the cost of mobility.Only recommended to use with the flamethrower.</Apparel_FireproofArmor.description>
+  <!-- EN: Fireproof Helmet -->
+  <Apparel_FireproofHelmet.label>Fireproof Helmet</Apparel_FireproofHelmet.label>
+  <!-- EN: A fireproof powerarmor helmet. It is built stronger than a standard powerarmor helmet and provided heat and fire protection at the cost of mobility. -->
+  <Apparel_FireproofHelmet.description>A fireproof powerarmor helmet. It is built stronger than a standard powerarmor helmet and provided heat and fire protection at the cost of mobility.</Apparel_FireproofHelmet.description>
+</LanguageData>

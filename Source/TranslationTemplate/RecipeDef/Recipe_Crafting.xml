@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Create crystaline spike -->
+  <CreateCrystalineSpike.label>Create crystaline spike</CreateCrystalineSpike.label>
+  <!-- EN: A large crystaline spike that replaces a forarm and hand. Manipulation is greatly decreased in exchange for a large boost to melee damage and speed -->
+  <CreateCrystalineSpike.description>A large crystaline spike that replaces a forarm and hand. Manipulation is greatly decreased in exchange for a large boost to melee damage and speed</CreateCrystalineSpike.description>
+  <!-- EN: Crafting Bionic -->
+  <CreateCrystalineSpike.jobString>Crafting Bionic</CreateCrystalineSpike.jobString>
+  <!-- EN: Create Power Bionic Arm -->
+  <CreatePowerBionicArm.label>Create Power Bionic Arm</CreatePowerBionicArm.label>
+  <!-- EN: A mechanical arm that improves manipulation, melee damage and melee speed -->
+  <CreatePowerBionicArm.description>A mechanical arm that improves manipulation, melee damage and melee speed</CreatePowerBionicArm.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerBionicArm.jobString>Crafting Bionic</CreatePowerBionicArm.jobString>
+  <!-- EN:  Create power bionic eye -->
+  <CreatePowerEye.label> Create power bionic eye</CreatePowerEye.label>
+  <!-- EN: A mechanical eye that improves sight -->
+  <CreatePowerEye.description>A mechanical eye that improves sight</CreatePowerEye.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerEye.jobString>Crafting Bionic</CreatePowerEye.jobString>
+  <!-- EN: Create power heart -->
+  <CreatePowerHeart.label>Create power heart</CreatePowerHeart.label>
+  <!-- EN: A mechanical heart that imporves blood pumping -->
+  <CreatePowerHeart.description>A mechanical heart that imporves blood pumping</CreatePowerHeart.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerHeart.jobString>Crafting Bionic</CreatePowerHeart.jobString>
+  <!-- EN: Create power bionic jaw -->
+  <CreatePowerJaw.label>Create power bionic jaw</CreatePowerJaw.label>
+  <!-- EN: A mechanical jaw that provides increased eating speed and speech -->
+  <CreatePowerJaw.description>A mechanical jaw that provides increased eating speed and speech</CreatePowerJaw.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerJaw.jobString>Crafting Bionic</CreatePowerJaw.jobString>
+  <!-- EN: Create power kidney -->
+  <CreatePowerKidney.label>Create power kidney</CreatePowerKidney.label>
+  <!-- EN: A mechanical kidney that improves blood filtration -->
+  <CreatePowerKidney.description>A mechanical kidney that improves blood filtration</CreatePowerKidney.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerKidney.jobString>Crafting Bionic</CreatePowerKidney.jobString>
+  <!-- EN: Create power bionic leg -->
+  <CreatePowerLeg.label>Create power bionic leg</CreatePowerLeg.label>
+  <!-- EN: A mechanical leg that improves walking speed -->
+  <CreatePowerLeg.description>A mechanical leg that improves walking speed</CreatePowerLeg.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerLeg.jobString>Crafting Bionic</CreatePowerLeg.jobString>
+  <!-- EN: Create power liver -->
+  <CreatePowerLiver.label>Create power liver</CreatePowerLiver.label>
+  <!-- EN: A mechanical liver that improves blood filtration -->
+  <CreatePowerLiver.description>A mechanical liver that improves blood filtration</CreatePowerLiver.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerLiver.jobString>Crafting Bionic</CreatePowerLiver.jobString>
+  <!-- EN: Create power lung -->
+  <CreatePowerLung.label>Create power lung</CreatePowerLung.label>
+  <!-- EN: A mechanical lung that imporves breathing -->
+  <CreatePowerLung.description>A mechanical lung that imporves breathing</CreatePowerLung.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerLung.jobString>Crafting Bionic</CreatePowerLung.jobString>
+  <!-- EN: Create power bionic spine -->
+  <CreatePowerSpine.label>Create power bionic spine</CreatePowerSpine.label>
+  <!-- EN: A mechanical spine that improves speed and manipulation -->
+  <CreatePowerSpine.description>A mechanical spine that improves speed and manipulation</CreatePowerSpine.description>
+  <!-- EN: Crafting Bionic -->
+  <CreatePowerSpine.jobString>Crafting Bionic</CreatePowerSpine.jobString>
+</LanguageData>

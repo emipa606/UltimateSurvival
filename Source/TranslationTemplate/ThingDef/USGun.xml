@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Chainsaw Turret Bullet -->
+  <Bullet_TurretChainsaw.label>Chainsaw Turret Bullet</Bullet_TurretChainsaw.label>
+  <!-- EN: Flamethrower Turret Bullet -->
+  <Bullet_TurretFlamethrower.label>Flamethrower Turret Bullet</Bullet_TurretFlamethrower.label>
+  <!-- EN: Heavy Turret Bullet -->
+  <Bullet_TurretHeavy.label>Heavy Turret Bullet</Bullet_TurretHeavy.label>
+  <!-- EN: Heavy Laser Bullet -->
+  <Bullet_TurretLaser.label>Heavy Laser Bullet</Bullet_TurretLaser.label>
+  <!-- EN: Heavy Sniper Bullet -->
+  <Bullet_TurretSniper.label>Heavy Sniper Bullet</Bullet_TurretSniper.label>
+  <!-- EN: Chainsaw Turret Gun -->
+  <Gun_TurretChainsaw.label>Chainsaw Turret Gun</Gun_TurretChainsaw.label>
+  <!-- EN: Chainsaw Turret. -->
+  <Gun_TurretChainsaw.description>Chainsaw Turret.</Gun_TurretChainsaw.description>
+  <!-- EN: Chainsaw Turret Gun -->
+  <Gun_TurretChainsaw.verbs.Verb_Shoot.label>Chainsaw Turret Gun</Gun_TurretChainsaw.verbs.Verb_Shoot.label>
+  <!-- EN: Flamethrower Turret Gun -->
+  <Gun_TurretFlamethrower.label>Flamethrower Turret Gun</Gun_TurretFlamethrower.label>
+  <!-- EN: Flamethrower Turret. -->
+  <Gun_TurretFlamethrower.description>Flamethrower Turret.</Gun_TurretFlamethrower.description>
+  <!-- EN: Flamethrower Turret Gun -->
+  <Gun_TurretFlamethrower.verbs.Verb_Shoot.label>Flamethrower Turret Gun</Gun_TurretFlamethrower.verbs.Verb_Shoot.label>
+  <!-- EN: Heavy Turret Gun -->
+  <Gun_TurretHeavy.label>Heavy Turret Gun</Gun_TurretHeavy.label>
+  <!-- EN: Heavy Turret. -->
+  <Gun_TurretHeavy.description>Heavy Turret.</Gun_TurretHeavy.description>
+  <!-- EN: Heavy Turret Gun -->
+  <Gun_TurretHeavy.verbs.Verb_Shoot.label>Heavy Turret Gun</Gun_TurretHeavy.verbs.Verb_Shoot.label>
+  <!-- EN: Heavy Laser Gun -->
+  <Gun_TurretLaser.label>Heavy Laser Gun</Gun_TurretLaser.label>
+  <!-- EN: Laser Turret -->
+  <Gun_TurretLaser.description>Laser Turret</Gun_TurretLaser.description>
+  <!-- EN: Heavy Laser Gun -->
+  <Gun_TurretLaser.verbs.Verb_Shoot.label>Heavy Laser Gun</Gun_TurretLaser.verbs.Verb_Shoot.label>
+  <!-- EN: Heavy Sniper Gun -->
+  <Gun_TurretSniper.label>Heavy Sniper Gun</Gun_TurretSniper.label>
+  <!-- EN: Sniper Turret. -->
+  <Gun_TurretSniper.description>Sniper Turret.</Gun_TurretSniper.description>
+  <!-- EN: Heavy Sniper Gun -->
+  <Gun_TurretSniper.verbs.Verb_Shoot.label>Heavy Sniper Gun</Gun_TurretSniper.verbs.Verb_Shoot.label>
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Flamethrower Stream -->
+  <Bullet_Flamethrower.label>Flamethrower Stream</Bullet_Flamethrower.label>
+  <!-- EN: power shotgun pellet -->
+  <Bullet_PowerAssaultShotgun.label>power shotgun pellet</Bullet_PowerAssaultShotgun.label>
+  <!-- EN: power gatling bullet -->
+  <Bullet_PowerGatlingGun.label>power gatling bullet</Bullet_PowerGatlingGun.label>
+  <!-- EN: power sniper bullet -->
+  <Bullet_PowerSniper.label>power sniper bullet</Bullet_PowerSniper.label>
+  <!-- EN: Flamethrower -->
+  <Gun_Flamethrower.label>Flamethrower</Gun_Flamethrower.label>
+  <!-- EN: A handheld flamethrower. -->
+  <Gun_Flamethrower.description>A handheld flamethrower.</Gun_Flamethrower.description>
+  <!-- EN: Flamethrower -->
+  <Gun_Flamethrower.verbs.Verb_Shoot.label>Flamethrower</Gun_Flamethrower.verbs.Verb_Shoot.label>
+  <!-- EN: power assault shotgun -->
+  <Gun_PowerAssaultShotgun.label>power assault shotgun</Gun_PowerAssaultShotgun.label>
+  <!-- EN: A shotgun powered by powershards. Deadly and fast firing. -->
+  <Gun_PowerAssaultShotgun.description>A shotgun powered by powershards. Deadly and fast firing.</Gun_PowerAssaultShotgun.description>
+  <!-- EN: power assault shotgun -->
+  <Gun_PowerAssaultShotgun.verbs.Verb_Shoot.label>power assault shotgun</Gun_PowerAssaultShotgun.verbs.Verb_Shoot.label>
+  <!-- EN: power gatling gun -->
+  <Gun_PowerGatlingGun.label>power gatling gun</Gun_PowerGatlingGun.label>
+  <!-- EN: A massive gatling gun powered by powershards. Throws a ton of rounds down range. It is low damage but very high firerate. -->
+  <Gun_PowerGatlingGun.description>A massive gatling gun powered by powershards. Throws a ton of rounds down range. It is low damage but very high firerate.</Gun_PowerGatlingGun.description>
+  <!-- EN: power gatling gun -->
+  <Gun_PowerGatlingGun.verbs.Verb_Shoot.label>power gatling gun</Gun_PowerGatlingGun.verbs.Verb_Shoot.label>
+  <!-- EN: power sniper rifle -->
+  <Gun_PowerSniperRifle.label>power sniper rifle</Gun_PowerSniperRifle.label>
+  <!-- EN: A sniper rifle powered by powershards. Shoots 2 powerful rounds in short succesion. -->
+  <Gun_PowerSniperRifle.description>A sniper rifle powered by powershards. Shoots 2 powerful rounds in short succesion.</Gun_PowerSniperRifle.description>
+  <!-- EN: power sniper rifle -->
+  <Gun_PowerSniperRifle.verbs.Verb_Shoot.label>power sniper rifle</Gun_PowerSniperRifle.verbs.Verb_Shoot.label>
+</LanguageData>

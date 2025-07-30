@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Focus Production -->
+  <FocusProduction.label>Focus Production</FocusProduction.label>
+  <!-- EN: The ability to create the drug "Focus". -->
+  <FocusProduction.description>The ability to create the drug "Focus".</FocusProduction.description>
+  <!-- EN: Powerbench -->
+  <Powerbench.label>Powerbench</Powerbench.label>
+  <!-- EN: A crafting station to create goods made from Power Shards. -->
+  <Powerbench.description>A crafting station to create goods made from Power Shards.</Powerbench.description>
+  <!-- EN: Powercore Generator -->
+  <PowercoreGenerator.label>Powercore Generator</PowercoreGenerator.label>
+  <!-- EN: A large power generator that takes advantage of the energy within Powercore. -->
+  <PowercoreGenerator.description>A large power generator that takes advantage of the energy within Powercore.</PowercoreGenerator.description>
+  <!-- EN: Powercore Production -->
+  <PowercoreProduction.label>Powercore Production</PowercoreProduction.label>
+  <!-- EN: The ability to create Powercores which can be used for weapons, armors, power generation and defences. -->
+  <PowercoreProduction.description>The ability to create Powercores which can be used for weapons, armors, power generation and defences.</PowercoreProduction.description>
+  <!-- EN: Powershard Combuster -->
+  <PowershardCombuster.label>Powershard Combuster</PowershardCombuster.label>
+  <!-- EN: A small power generator that consumes Power Shards. -->
+  <PowershardCombuster.description>A small power generator that consumes Power Shards.</PowershardCombuster.description>
+  <!-- EN: Power Shard Dust -->
+  <Powersharddust.label>Power Shard Dust</Powersharddust.label>
+  <!-- EN: Unlocks the ability to crush Power Shards at the Power Bench. -->
+  <Powersharddust.description>Unlocks the ability to crush Power Shards at the Power Bench.</Powersharddust.description>
+  <!-- EN: Power Shard Dust Refining -->
+  <Refineddust.label>Power Shard Dust Refining</Refineddust.label>
+  <!-- EN: The ability to refine Power Shard dust to remove impurities. -->
+  <Refineddust.description>The ability to refine Power Shard dust to remove impurities.</Refineddust.description>
+  <!-- EN: Super Focus Production -->
+  <SuperFocusProduction.label>Super Focus Production</SuperFocusProduction.label>
+  <!-- EN: The ability to create the drug "Super Focus". -->
+  <SuperFocusProduction.description>The ability to create the drug "Super Focus".</SuperFocusProduction.description>
+  <!-- EN: Ultimate Survival -->
+  <UltimateSurvival.label>Ultimate Survival</UltimateSurvival.label>
+  <!-- EN: Unlocks the ability to research Ultimate Survival Technology. -->
+  <UltimateSurvival.description>Unlocks the ability to research Ultimate Survival Technology.</UltimateSurvival.description>
+</LanguageData>

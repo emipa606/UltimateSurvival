@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: High on Focus -->
+  <FocusHigh.stages.High_on_Focus.label>High on Focus</FocusHigh.stages.High_on_Focus.label>
+  <!-- EN: Feeling fantastic! -->
+  <FocusHigh.stages.High_on_Focus.description>Feeling fantastic!</FocusHigh.stages.High_on_Focus.description>
+  <!-- EN: Focus Withdrawal -->
+  <FocusWithdrawal.stages.Focus_Withdrawal.label>Focus Withdrawal</FocusWithdrawal.stages.Focus_Withdrawal.label>
+  <!-- EN: I can't focus without more Focus, it's hard to be productive -->
+  <FocusWithdrawal.stages.Focus_Withdrawal.description>I can't focus without more Focus, it's hard to be productive</FocusWithdrawal.stages.Focus_Withdrawal.description>
+</LanguageData>

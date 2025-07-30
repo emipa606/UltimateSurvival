@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Psycho -->
+  <PsychoBody.label>Psycho</PsychoBody.label>
+  <!-- EN: left clavicle -->
+  <PsychoBody.corePart.parts.left_clavicle.customLabel>left clavicle</PsychoBody.corePart.parts.left_clavicle.customLabel>
+  <!-- EN: right clavicle -->
+  <PsychoBody.corePart.parts.right_clavicle.customLabel>right clavicle</PsychoBody.corePart.parts.right_clavicle.customLabel>
+  <!-- EN: left lung -->
+  <PsychoBody.corePart.parts.left_lung.customLabel>left lung</PsychoBody.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <PsychoBody.corePart.parts.right_lung.customLabel>right lung</PsychoBody.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <PsychoBody.corePart.parts.left_kidney.customLabel>left kidney</PsychoBody.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <PsychoBody.corePart.parts.right_kidney.customLabel>right kidney</PsychoBody.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+  <PsychoBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</PsychoBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <PsychoBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</PsychoBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <PsychoBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</PsychoBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <PsychoBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</PsychoBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: left shoulder -->
+  <PsychoBody.corePart.parts.left_shoulder.customLabel>left shoulder</PsychoBody.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <PsychoBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</PsychoBody.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <PsychoBody.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>left humerus</PsychoBody.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <PsychoBody.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>left radius</PsychoBody.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: right shoulder -->
+  <PsychoBody.corePart.parts.right_shoulder.customLabel>right shoulder</PsychoBody.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <PsychoBody.corePart.parts.right_shoulder.parts.right_arm.customLabel>right arm</PsychoBody.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <PsychoBody.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>right humerus</PsychoBody.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <PsychoBody.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>right radius</PsychoBody.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: left leg -->
+  <PsychoBody.corePart.parts.left_leg.customLabel>left leg</PsychoBody.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_femur.customLabel>left femur</PsychoBody.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_tibia.customLabel>left tibia</PsychoBody.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_foot.customLabel>left foot</PsychoBody.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left foot little toe -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_little_toe.customLabel>left foot little toe</PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_little_toe.customLabel>
+  <!-- EN: left foot fourth toe -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_fourth_toe.customLabel>left foot fourth toe</PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_fourth_toe.customLabel>
+  <!-- EN: left foot middle toe -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_middle_toe.customLabel>left foot middle toe</PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_middle_toe.customLabel>
+  <!-- EN: left foot second toe -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_second_toe.customLabel>left foot second toe</PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_second_toe.customLabel>
+  <!-- EN: left foot big toe -->
+  <PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_big_toe.customLabel>left foot big toe</PsychoBody.corePart.parts.left_leg.parts.left_foot.parts.left_foot_big_toe.customLabel>
+  <!-- EN: right leg -->
+  <PsychoBody.corePart.parts.right_leg.customLabel>right leg</PsychoBody.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_femur.customLabel>right femur</PsychoBody.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_tibia.customLabel>right tibia</PsychoBody.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</PsychoBody.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right foot little toe -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_little_toe.customLabel>right foot little toe</PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_little_toe.customLabel>
+  <!-- EN: right foot fourth toe -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_fourth_toe.customLabel>right foot fourth toe</PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_fourth_toe.customLabel>
+  <!-- EN: right foot middle toe -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_middle_toe.customLabel>right foot middle toe</PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_middle_toe.customLabel>
+  <!-- EN: right foot second toe -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_second_toe.customLabel>right foot second toe</PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_second_toe.customLabel>
+  <!-- EN: right foot big toe -->
+  <PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_big_toe.customLabel>right foot big toe</PsychoBody.corePart.parts.right_leg.parts.right_foot.parts.right_foot_big_toe.customLabel>
+</LanguageData>

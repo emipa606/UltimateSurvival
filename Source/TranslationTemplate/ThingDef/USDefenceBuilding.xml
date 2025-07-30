@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Chainsaw Turret -->
+  <ChainsawTurretGun.label>Chainsaw Turret</ChainsawTurretGun.label>
+  <!-- EN: A Chainsaw Turret. It is literally just a chainsaw on a turret. It has very low range but will deal a lot of damage quickly. Any survivor tends to bleed out very quickly -->
+  <ChainsawTurretGun.description>A Chainsaw Turret. It is literally just a chainsaw on a turret. It has very low range but will deal a lot of damage quickly. Any survivor tends to bleed out very quickly</ChainsawTurretGun.description>
+  <!-- EN: Flamethrower Turret -->
+  <FlamethrowerTurretGun.label>Flamethrower Turret</FlamethrowerTurretGun.label>
+  <!-- EN: A Flamethrower Turret. It will torch enemies within a reletivly close range. Low health and highly explosive. -->
+  <FlamethrowerTurretGun.description>A Flamethrower Turret. It will torch enemies within a reletivly close range. Low health and highly explosive.</FlamethrowerTurretGun.description>
+  <!-- EN: Heavy Laser Turret -->
+  <HeavyLaserGun.label>Heavy Laser Turret</HeavyLaserGun.label>
+  <!-- EN: A Laser Turret that has low damage but incredible firerate and range. -->
+  <HeavyLaserGun.description>A Laser Turret that has low damage but incredible firerate and range.</HeavyLaserGun.description>
+  <!-- EN: Heavy Turret -->
+  <HeavyTurretGun.label>Heavy Turret</HeavyTurretGun.label>
+  <!-- EN: Heavy Turret. -->
+  <HeavyTurretGun.description>Heavy Turret.</HeavyTurretGun.description>
+  <!-- EN: Sniper Turret -->
+  <SniperTurretGun.label>Sniper Turret</SniperTurretGun.label>
+  <!-- EN: A Sniper Turret with high damage and range, but very slow firerate and health. -->
+  <SniperTurretGun.description>A Sniper Turret with high damage and range, but very slow firerate and health.</SniperTurretGun.description>
+</LanguageData>

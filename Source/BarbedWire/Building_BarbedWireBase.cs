@@ -18,7 +18,7 @@ public abstract class Building_BarbedWireBase : Building
 
     private List<Pawn> touchingPawns = [];
 
-    public virtual bool Armed => true;
+    protected virtual bool Armed => true;
 
     public override void ExposeData()
     {
@@ -26,7 +26,7 @@ public abstract class Building_BarbedWireBase : Building
         Scribe_Collections.Look(ref touchingPawns, "testees", LookMode.Reference);
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         var armed = Armed;
         if (armed)
@@ -40,7 +40,7 @@ public abstract class Building_BarbedWireBase : Building
                 }
 
                 touchingPawns.Add(pawn);
-                CheckSpring(pawn);
+                checkSpring(pawn);
             }
         }
 
@@ -58,7 +58,7 @@ public abstract class Building_BarbedWireBase : Building
 
     protected virtual float SpringChance(Pawn p)
     {
-        var num = KnowsOfTrap(p) ? KnowerSpringChance : this.GetStatValue(StatDefOf.TrapSpringChance);
+        var num = knowsOfTrap(p) ? KnowerSpringChance : this.GetStatValue(StatDefOf.TrapSpringChance);
 
         num *= GenMath.LerpDouble(0.4f, 0.8f, 0f, 1f, p.BodySize);
         var animal = p.RaceProps.Animal;
@@ -70,14 +70,14 @@ public abstract class Building_BarbedWireBase : Building
         return Mathf.Clamp01(num);
     }
 
-    private void CheckSpring(Pawn p)
+    private void checkSpring(Pawn p)
     {
         if (!(Rand.Value < SpringChance(p)))
         {
             return;
         }
 
-        Spring(p);
+        spring(p);
         if (p.Faction == Faction.OfPlayer || p.HostFaction == Faction.OfPlayer)
         {
             Find.LetterStack.ReceiveLetter("LetterFriendlyTrapSprungLabel".Translate(p.NameShortColored),
@@ -86,49 +86,25 @@ public abstract class Building_BarbedWireBase : Building
         }
     }
 
-    public bool KnowsOfTrap(Pawn p)
+    private bool knowsOfTrap(Pawn p)
     {
-        bool result;
         if (p.Faction != null && !p.Faction.HostileTo(Faction))
         {
-            result = true;
-        }
-        else
-        {
-            if (p.Faction == null && p.RaceProps.Animal && !p.InAggroMentalState)
-            {
-                result = true;
-            }
-            else
-            {
-                if (p.guest is { Released: true })
-                {
-                    result = true;
-                }
-                else
-                {
-                    var lord = p.GetLord();
-                    result = p.RaceProps.Humanlike && lord is { LordJob: LordJob_FormAndSendCaravan };
-                }
-            }
+            return true;
         }
 
-        return result;
-    }
-
-    public override ushort PathFindCostFor(Pawn p)
-    {
-        ushort result;
-        if (!Armed)
+        if (p.Faction == null && p.RaceProps.Animal && !p.InAggroMentalState)
         {
-            result = 0;
-        }
-        else
-        {
-            result = KnowsOfTrap(p) ? KnowerPathFindCost : (ushort)0;
+            return true;
         }
 
-        return result;
+        if (p.guest is { Released: true })
+        {
+            return true;
+        }
+
+        var lord = p.GetLord();
+        return p.RaceProps.Humanlike && lord is { LordJob: LordJob_FormAndSendCaravan };
     }
 
     public override ushort PathWalkCostFor(Pawn p)
@@ -140,7 +116,7 @@ public abstract class Building_BarbedWireBase : Building
         }
         else
         {
-            result = KnowsOfTrap(p) ? KnowerPathWalkCost : (ushort)0;
+            result = knowsOfTrap(p) ? KnowerPathWalkCost : (ushort)0;
         }
 
         return result;
@@ -148,7 +124,7 @@ public abstract class Building_BarbedWireBase : Building
 
     public override bool IsDangerousFor(Pawn p)
     {
-        return Armed && KnowsOfTrap(p);
+        return Armed && knowsOfTrap(p);
     }
 
     public override string GetInspectString()
@@ -172,7 +148,7 @@ public abstract class Building_BarbedWireBase : Building
         return text;
     }
 
-    public void Spring(Pawn p)
+    private void spring(Pawn p)
     {
         SoundDef.Named("DeadfallSpring").PlayOneShot(new TargetInfo(Position, Map));
         SpringSub(p);

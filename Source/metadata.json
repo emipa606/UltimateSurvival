@@ -2,5 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "1",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 6920,
+  "LinesOfXML": 212216,
+  "CodeBaseSize": 84,
+  "LastXmlCleaning": "2025-07-30T15:26:25.6536934+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " challenge",
+    " overhaul"
+  ]
 }

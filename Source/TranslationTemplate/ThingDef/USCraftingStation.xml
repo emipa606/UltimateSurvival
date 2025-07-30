@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Power Bench -->
+  <Powerbench.label>Power Bench</Powerbench.label>
+  <!-- EN: A workbench equipped for the production of Power Shard related items. -->
+  <Powerbench.description>A workbench equipped for the production of Power Shard related items.</Powerbench.description>
+  <!-- EN: US Bionics Workbench -->
+  <TableBionicProduction.label>US Bionics Workbench</TableBionicProduction.label>
+  <!-- EN: A workbench equipped for the production of bionic body parts and organs. -->
+  <TableBionicProduction.description>A workbench equipped for the production of bionic body parts and organs.</TableBionicProduction.description>
+  <!-- EN: US Weapons and Armor Bench -->
+  <USWeaponArmorbench.label>US Weapons and Armor Bench</USWeaponArmorbench.label>
+  <!-- EN: A workbench equipped for the production powerful weapons and armor. -->
+  <USWeaponArmorbench.description>A workbench equipped for the production powerful weapons and armor.</USWeaponArmorbench.description>
+</LanguageData>

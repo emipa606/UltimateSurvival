@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>global learning factor</GlobalLearningFactor.label>
+  <!-- EN: Global learning efficiency for all skills. -->
+  <GlobalLearningFactor.description>Global learning efficiency for all skills.</GlobalLearningFactor.description>
+</LanguageData>

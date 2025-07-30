@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: psycho -->
+  <Destroyer_Psycho.label>psycho</Destroyer_Psycho.label>
+  <!-- EN: A small and quick semi-humanoid creature. It has spikes for arms and is deadly in melee combat. -->
+  <Destroyer_Psycho.description>A small and quick semi-humanoid creature. It has spikes for arms and is deadly in melee combat.</Destroyer_Psycho.description>
+  <!-- EN: left spike -->
+  <Destroyer_Psycho.tools.left_spike.label>left spike</Destroyer_Psycho.tools.left_spike.label>
+  <!-- EN: right spike -->
+  <Destroyer_Psycho.tools.right_spike.label>right spike</Destroyer_Psycho.tools.right_spike.label>
+</LanguageData>

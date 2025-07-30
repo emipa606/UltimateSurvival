@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Super Focus Addiction -->
+  <SuperFocusAddiction.label>Super Focus Addiction</SuperFocusAddiction.label>
+  <!-- EN: Super Focus Addiction -->
+  <SuperFocusAddiction.description>Super Focus Addiction</SuperFocusAddiction.description>
+  <!-- EN: Withdrawal -->
+  <SuperFocusAddiction.stages.Withdrawal.label>Withdrawal</SuperFocusAddiction.stages.Withdrawal.label>
+  <!-- EN: High on Super Focus -->
+  <SuperFocusHigh.label>High on Super Focus</SuperFocusHigh.label>
+  <!-- EN: High on Super Focus -->
+  <SuperFocusHigh.description>High on Super Focus</SuperFocusHigh.description>
+  <!-- EN: Super Focus Tolerance -->
+  <SuperFocusTolerance.label>Super Focus Tolerance</SuperFocusTolerance.label>
+  <!-- EN: Super Focus Tolerance -->
+  <SuperFocusTolerance.description>Super Focus Tolerance</SuperFocusTolerance.description>
+  <!-- EN: small -->
+  <SuperFocusTolerance.stages.small.label>small</SuperFocusTolerance.stages.small.label>
+  <!-- EN: large -->
+  <SuperFocusTolerance.stages.large.label>large</SuperFocusTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <SuperFocusTolerance.stages.massive.label>massive</SuperFocusTolerance.stages.massive.label>
+</LanguageData>

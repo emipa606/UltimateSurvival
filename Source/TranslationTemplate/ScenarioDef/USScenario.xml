@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Ultimate Survival -->
+  <UltimateSurvival.label>Ultimate Survival</UltimateSurvival.label>
+  <!-- EN: A strong start, but don't expect to survive. -->
+  <UltimateSurvival.description>A strong start, but don't expect to survive.</UltimateSurvival.description>
+  <!-- EN: A strong start, but don't expect to survive. -->
+  <UltimateSurvival.scenario.description>A strong start, but don't expect to survive.</UltimateSurvival.scenario.description>
+  <!-- EN: Ultimate Survival -->
+  <UltimateSurvival.scenario.name>Ultimate Survival</UltimateSurvival.scenario.name>
+  <!-- EN: A strong start, but don't expect to survive. -->
+  <UltimateSurvival.scenario.summary>A strong start, but don't expect to survive.</UltimateSurvival.scenario.summary>
+</LanguageData>

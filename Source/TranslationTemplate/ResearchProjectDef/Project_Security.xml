@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Chainsaw Turret -->
+  <ChainsawTurret.label>Chainsaw Turret</ChainsawTurret.label>
+  <!-- EN: A powerful melee turret. -->
+  <ChainsawTurret.description>A powerful melee turret.</ChainsawTurret.description>
+  <!-- EN: Flamethrower Turret -->
+  <FlamethrowerTurret.label>Flamethrower Turret</FlamethrowerTurret.label>
+  <!-- EN: A flamethrower turret, for those who want to watch the world burn. -->
+  <FlamethrowerTurret.description>A flamethrower turret, for those who want to watch the world burn.</FlamethrowerTurret.description>
+  <!-- EN: Large Turrets -->
+  <HeavyTurret.label>Large Turrets</HeavyTurret.label>
+  <!-- EN: Allows the production of large turrets. -->
+  <HeavyTurret.description>Allows the production of large turrets.</HeavyTurret.description>
+  <!-- EN: Laser Turret -->
+  <LaserTurret.label>Laser Turret</LaserTurret.label>
+  <!-- EN: A very powerful turret that takes advantage of the immense power of Powercores. -->
+  <LaserTurret.description>A very powerful turret that takes advantage of the immense power of Powercores.</LaserTurret.description>
+  <!-- EN: Powercore Shell -->
+  <PowercoreShell.label>Powercore Shell</PowercoreShell.label>
+  <!-- EN: A shell made from powercores that can be used to rain firey hell upon your enemies using a standard mortar -->
+  <PowercoreShell.description>A shell made from powercores that can be used to rain firey hell upon your enemies using a standard mortar</PowercoreShell.description>
+  <!-- EN: Sniper Turret -->
+  <SniperTurret.label>Sniper Turret</SniperTurret.label>
+  <!-- EN: A powerful sniper turret. -->
+  <SniperTurret.description>A powerful sniper turret.</SniperTurret.description>
+</LanguageData>

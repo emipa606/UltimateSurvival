@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: behemoth psycho -->
+  <Destroyer_BehemothPsycho.label>behemoth psycho</Destroyer_BehemothPsycho.label>
+  <!-- EN: A massive semi-humanoid creature that uses its spikes to inflict deadly sab wounds and destroy pretty much everything in its path. It is quite slow but has an increadable amount of health. -->
+  <Destroyer_BehemothPsycho.description>A massive semi-humanoid creature that uses its spikes to inflict deadly sab wounds and destroy pretty much everything in its path. It is quite slow but has an increadable amount of health.</Destroyer_BehemothPsycho.description>
+  <!-- EN: left spike -->
+  <Destroyer_BehemothPsycho.tools.left_spike.label>left spike</Destroyer_BehemothPsycho.tools.left_spike.label>
+  <!-- EN: right spike -->
+  <Destroyer_BehemothPsycho.tools.right_spike.label>right spike</Destroyer_BehemothPsycho.tools.right_spike.label>
+</LanguageData>

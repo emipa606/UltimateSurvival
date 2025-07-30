@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Destroyer -->
+  <Destroyer.label>Destroyer</Destroyer.label>
+  <!-- EN: Nobody knows where they came from, but their only goal seems to be to destroy all sentiant life they come across. They are some strange mix between human and mech. -->
+  <Destroyer.description>Nobody knows where they came from, but their only goal seems to be to destroy all sentiant life they come across. They are some strange mix between human and mech.</Destroyer.description>
+  <!-- EN: leader -->
+  <Destroyer.leaderTitle>leader</Destroyer.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Destroyer.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Destroyer.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Destroyer.pawnSingular>member</Destroyer.pawnSingular>
+  <!-- EN: Destroyer soldiers -->
+  <Destroyer.pawnsPlural>Destroyer soldiers</Destroyer.pawnsPlural>
+</LanguageData>

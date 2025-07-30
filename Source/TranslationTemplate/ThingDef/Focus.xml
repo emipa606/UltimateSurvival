@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Focus -->
+  <Focus.label>Focus</Focus.label>
+  <!-- EN: A drug made from crushed power shards. It is highly addictive but provides a nice boost to many stats. Without a steady supply of Focus, any colonist taking this drug can experiance a intense withdrawal. -->
+  <Focus.description>A drug made from crushed power shards. It is highly addictive but provides a nice boost to many stats. Without a steady supply of Focus, any colonist taking this drug can experiance a intense withdrawal.</Focus.description>
+  <!-- EN: Inject {0} -->
+  <Focus.ingestible.ingestCommandString>Inject {0}</Focus.ingestible.ingestCommandString>
+  <!-- EN: Injecting {0}. -->
+  <Focus.ingestible.ingestReportString>Injecting {0}.</Focus.ingestible.ingestReportString>
+</LanguageData>

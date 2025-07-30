@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Weave Crystal Fiber -->
+  <CreateCrystalfiber.label>Weave Crystal Fiber</CreateCrystalfiber.label>
+  <!-- EN: A fiber created from power shard dust -->
+  <CreateCrystalfiber.description>A fiber created from power shard dust</CreateCrystalfiber.description>
+  <!-- EN: Weaving Crystal Fiber -->
+  <CreateCrystalfiber.jobString>Weaving Crystal Fiber</CreateCrystalfiber.jobString>
+  <!-- EN: Craft Powercore -->
+  <CreatePowercore.label>Craft Powercore</CreatePowercore.label>
+  <!-- EN: Combine Powershards to create a Powercore. -->
+  <CreatePowercore.description>Combine Powershards to create a Powercore.</CreatePowercore.description>
+  <!-- EN: Crafting Powercore -->
+  <CreatePowercore.jobString>Crafting Powercore</CreatePowercore.jobString>
+  <!-- EN: Crush Power Shards -->
+  <CreatePowersharddust.label>Crush Power Shards</CreatePowersharddust.label>
+  <!-- EN: Crush Powershards into a fine powder. -->
+  <CreatePowersharddust.description>Crush Powershards into a fine powder.</CreatePowersharddust.description>
+  <!-- EN: Crushing Power Shards -->
+  <CreatePowersharddust.jobString>Crushing Power Shards</CreatePowersharddust.jobString>
+  <!-- EN: Make Pure Power Crystal -->
+  <CreatePurePowerCrystal.label>Make Pure Power Crystal</CreatePurePowerCrystal.label>
+  <!-- EN: A pure power crystal. -->
+  <CreatePurePowerCrystal.description>A pure power crystal.</CreatePurePowerCrystal.description>
+  <!-- EN: Crafting Pure Power Crystal -->
+  <CreatePurePowerCrystal.jobString>Crafting Pure Power Crystal</CreatePurePowerCrystal.jobString>
+  <!-- EN: Refine Powershard Dust -->
+  <CreateRefineddust.label>Refine Powershard Dust</CreateRefineddust.label>
+  <!-- EN: Remove impurities from Powershard dust. -->
+  <CreateRefineddust.description>Remove impurities from Powershard dust.</CreateRefineddust.description>
+  <!-- EN: Refineing Power Shard Dust -->
+  <CreateRefineddust.jobString>Refineing Power Shard Dust</CreateRefineddust.jobString>
+</LanguageData>

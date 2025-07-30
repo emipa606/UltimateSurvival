@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Advanced Boots -->
+  <AdvancedBoots.label>Advanced Boots</AdvancedBoots.label>
+  <!-- EN: BOOT DESCRIPTION -->
+  <AdvancedBoots.description>BOOT DESCRIPTION</AdvancedBoots.description>
+  <!-- EN: Advanced Gloves -->
+  <AdvancedGloves.label>Advanced Gloves</AdvancedGloves.label>
+  <!-- EN: GLOVE DESCRIPTION -->
+  <AdvancedGloves.description>GLOVE DESCRIPTION</AdvancedGloves.description>
+  <!-- EN: Basic Boots -->
+  <BasicBoots.label>Basic Boots</BasicBoots.label>
+  <!-- EN: BOOT DESCRIPTION -->
+  <BasicBoots.description>BOOT DESCRIPTION</BasicBoots.description>
+  <!-- EN: Basic Gloves -->
+  <BasicGloves.label>Basic Gloves</BasicGloves.label>
+  <!-- EN: GLOVE DESCRIPTION -->
+  <BasicGloves.description>GLOVE DESCRIPTION</BasicGloves.description>
+  <!-- EN: Power Boots -->
+  <PowerBoots.label>Power Boots</PowerBoots.label>
+  <!-- EN: BOOT DESCRIPTION -->
+  <PowerBoots.description>BOOT DESCRIPTION</PowerBoots.description>
+  <!-- EN: Power Gloves -->
+  <PowerGloves.label>Power Gloves</PowerGloves.label>
+  <!-- EN: GLOVE DESCRIPTION -->
+  <PowerGloves.description>GLOVE DESCRIPTION</PowerGloves.description>
+</LanguageData>

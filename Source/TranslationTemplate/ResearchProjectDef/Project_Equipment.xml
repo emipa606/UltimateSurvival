@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Fire Suit -->
+  <FireSuit.label>Fire Suit</FireSuit.label>
+  <!-- EN: A fire resistance suit of armor. -->
+  <FireSuit.description>A fire resistance suit of armor.</FireSuit.description>
+  <!-- EN: Flamethrower -->
+  <Flamethrower.label>Flamethrower</Flamethrower.label>
+  <!-- EN: A fire resistance suit of armor. -->
+  <Flamethrower.description>A fire resistance suit of armor.</Flamethrower.description>
+  <!-- EN: Power Weapons -->
+  <PowerWeapons.label>Power Weapons</PowerWeapons.label>
+  <!-- EN: A set of craftable weapons. These weapons are constructed around a powercore, making them increadibly strong. -->
+  <PowerWeapons.description>A set of craftable weapons. These weapons are constructed around a powercore, making them increadibly strong.</PowerWeapons.description>
+  <!-- EN: US Armors -->
+  <USArmors.label>US Armors</USArmors.label>
+  <!-- EN: Unlocks the US armors pack. -->
+  <USArmors.description>Unlocks the US armors pack.</USArmors.description>
+  <!-- EN: US Weapons and Armor Workbench -->
+  <USWeaponArmorbench.label>US Weapons and Armor Workbench</USWeaponArmorbench.label>
+  <!-- EN: Unlocks the US weapons and armor workbench, giving you the ability to craft very powerful weapons and armor. -->
+  <USWeaponArmorbench.description>Unlocks the US weapons and armor workbench, giving you the ability to craft very powerful weapons and armor.</USWeaponArmorbench.description>
+</LanguageData>

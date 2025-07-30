@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Focus Addiction -->
+  <FocusAddiction.label>Focus Addiction</FocusAddiction.label>
+  <!-- EN: Focus Addiction -->
+  <FocusAddiction.description>Focus Addiction</FocusAddiction.description>
+  <!-- EN: Withdrawal -->
+  <FocusAddiction.stages.Withdrawal.label>Withdrawal</FocusAddiction.stages.Withdrawal.label>
+  <!-- EN: High on Focus -->
+  <FocusHigh.label>High on Focus</FocusHigh.label>
+  <!-- EN: High on Focus -->
+  <FocusHigh.description>High on Focus</FocusHigh.description>
+  <!-- EN: Focus Tolerance -->
+  <FocusTolerance.label>Focus Tolerance</FocusTolerance.label>
+  <!-- EN: Focus Tolerance -->
+  <FocusTolerance.description>Focus Tolerance</FocusTolerance.description>
+  <!-- EN: small -->
+  <FocusTolerance.stages.small.label>small</FocusTolerance.stages.small.label>
+  <!-- EN: large -->
+  <FocusTolerance.stages.large.label>large</FocusTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <FocusTolerance.stages.massive.label>massive</FocusTolerance.stages.massive.label>
+</LanguageData>

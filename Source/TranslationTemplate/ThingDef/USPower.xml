@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Power Core Generator -->
+  <PowercoreGenerator.label>Power Core Generator</PowercoreGenerator.label>
+  <!-- EN: Produces electricity from Power Cores. -->
+  <PowercoreGenerator.description>Produces electricity from Power Cores.</PowercoreGenerator.description>
+  <!-- EN: Power Shard Combuster -->
+  <PowershardCombuster.label>Power Shard Combuster</PowershardCombuster.label>
+  <!-- EN: Produces power by burning Power Shards. Must be fueled by hand. -->
+  <PowershardCombuster.description>Produces power by burning Power Shards. Must be fueled by hand.</PowershardCombuster.description>
+</LanguageData>

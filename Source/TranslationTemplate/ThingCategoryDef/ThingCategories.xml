@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: US Bionics -->
+  <USBionics.label>US Bionics</USBionics.label>
+  <!-- EN: footwear -->
+  <USFootwear.label>footwear</USFootwear.label>
+  <!-- EN: US Goods -->
+  <USGoods.label>US Goods</USGoods.label>
+  <!-- EN: handwear -->
+  <USHandwear.label>handwear</USHandwear.label>
+  <!-- EN: US Heavy Weapons -->
+  <USHeavyWeapons.label>US Heavy Weapons</USHeavyWeapons.label>
+  <!-- EN: US Weapons -->
+  <USWeapons.label>US Weapons</USWeapons.label>
+  <!-- EN: weapons -->
+  <Weapons.label>weapons</Weapons.label>
+</LanguageData>

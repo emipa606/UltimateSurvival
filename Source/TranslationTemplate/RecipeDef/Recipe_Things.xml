@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make powercore shells -->
+  <MakePowercoreShells.label>make powercore shells</MakePowercoreShells.label>
+  <!-- EN: Craft 4 powercore shells. -->
+  <MakePowercoreShells.description>Craft 4 powercore shells.</MakePowercoreShells.description>
+  <!-- EN: Making artillery shell. -->
+  <MakePowercoreShells.jobString>Making artillery shell.</MakePowercoreShells.jobString>
+</LanguageData>
