@@ -6,4 +6,97 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="BarbedWire/BarbedWire.csproj" />
+  <Folder Name="/XML/1.7/Defs/Scenarios/">
+    <File Path="../1.7/Defs/Scenarios/USScenario.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/TraderKindDefs/">
+    <File Path="../1.7/Defs/TraderKindDefs/TraderKinds_Orbital_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Stats/">
+    <File Path="../1.7/Defs/Stats/Stats_Pawns_General.xml" />
+    <File Path="../1.7/Defs/Stats/Stats_Pawns_WorkGeneral.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/Project_Base.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/Project_Bionics.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/Project_Equipment.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/Project_Security.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/Tab.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingCategoryDefs/">
+    <File Path="../1.7/Defs/ThingCategoryDefs/ThingCategories.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HediffsDefs/">
+    <File Path="../1.7/Defs/HediffsDefs/Hediffs_Local_AddedParts.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/BarbedWire.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/USCraftingStation.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/USDefenceBuilding.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/USGun.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Buildings/USPower.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/PawnKindDefs/">
+    <File Path="../1.7/Defs/PawnKindDefs/PawnKinds_BehemothGunner.xml" />
+    <File Path="../1.7/Defs/PawnKindDefs/PawnKinds_BehemothPsycho.xml" />
+    <File Path="../1.7/Defs/PawnKindDefs/PawnKinds_Giant.xml" />
+    <File Path="../1.7/Defs/PawnKindDefs/PawnKinds_Psycho.xml" />
+    <File Path="../1.7/Defs/PawnKindDefs/PawnKinds_Soldier.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/Races_BehemothGunner.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Races_BehemothPsycho.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Races_Giant.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Races_Psycho.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Races_Soldier.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Storyteller/">
+    <File Path="../1.7/Defs/Storyteller/Storytellers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/Accessories.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Armor.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/BodyParts.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Items.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Wepons.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/FactionDefs/">
+    <File Path="../1.7/Defs/FactionDefs/DestroyerFaction.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThinkTreeDefs/">
+    <File Path="../1.7/Defs/ThinkTreeDefs/Destroyer.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/BodyPartDefs/">
+    <File Path="../1.7/Defs/BodyPartDefs/BodyParts_Psyco.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DifficultyDefs/">
+    <File Path="../1.7/Defs/DifficultyDefs/Difficulties.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/WorkGiverDefs/">
+    <File Path="../1.7/Defs/WorkGiverDefs/Workgiver.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/BodyDefs/">
+    <File Path="../1.7/Defs/BodyDefs/Bodies_Psycho.xml" />
+    <File Path="../1.7/Defs/BodyDefs/BodyPartGroups.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/Factions_Misc.xml" />
+    <File Path="../1.7/Patches/Humanoids_Pawnkinds.xml" />
+    <File Path="../1.7/Patches/Items_BodyPart.xml" />
+    <File Path="../1.7/Patches/Mechanoids_Pawnkinds.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Drugs/">
+    <File Path="../1.7/Defs/Drugs/Focus.xml" />
+    <File Path="../1.7/Defs/Drugs/SuperFocus.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipesDefs/">
+    <File Path="../1.7/Defs/RecipesDefs/Recipe_Crafting.xml" />
+    <File Path="../1.7/Defs/RecipesDefs/Recipe_Items.xml" />
+    <File Path="../1.7/Defs/RecipesDefs/Recipe_Things.xml" />
+    <File Path="../1.7/Defs/RecipesDefs/Recipes_Drugs.xml" />
+    <File Path="../1.7/Defs/RecipesDefs/Recipes_Surgery_NewParts.xml" />
+  </Folder>
 </Solution>

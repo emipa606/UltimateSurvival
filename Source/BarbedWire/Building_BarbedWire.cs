@@ -14,8 +14,6 @@ public class Building_BarbedWire : Building_BarbedWireBase
 
     private bool autoRearm;
 
-    private Graphic graphicUnarmedInt;
-
     protected override bool Armed => armedInt;
 
     public override Graphic Graphic
@@ -29,9 +27,9 @@ public class Building_BarbedWire : Building_BarbedWireBase
             }
             else
             {
-                graphicUnarmedInt ??= def.building.trapUnarmedGraphicData.GraphicColoredFor(this);
+                field ??= def.building.trapUnarmedGraphicData.GraphicColoredFor(this);
 
-                graphic = graphicUnarmedInt;
+                graphic = field;
             }
 
             return graphic;

@@ -1,6 +1,6 @@
 # [Ultimate Survival (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2306285708)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Toxic Timewaster(Ryan123220)s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1095240982
@@ -13,9 +13,9 @@ I have no idea if this mod even works as it was intended to work originally anym
 
 As the original creator of the mod, I would NOT recommend using this in any way because at best, its a clusterf*ck. If you decide to try it...good luck, and probably don't use other non-utility mods.
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Rimworld overhaul for those who hate themselves (v1.0)
 
@@ -84,13 +84,13 @@ WARNING
 
 This mod will have attacks that are larger than standard Rimworld attacks. Late game attacks can cause large framerate drops if you try running at a high game speed and/or have a computer that already has a hard time with endgame Rimworld raids. I have done what I could to limit the number of pawns attacking, but it can still get quite high in the largest size of raids.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -98,4 +98,4 @@ This mod will have attacks that are larger than standard Rimworld attacks. Late 
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/UltimateSurvival?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2306285708) | tags:  challenge,  overhaul
+[![Image](https://img.shields.io/github/v/release/emipa606/UltimateSurvival?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2306285708) | challenge, overhaul
